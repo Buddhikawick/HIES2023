@@ -1,0 +1,11 @@
+﻿[Run Information]
+Version=CSPro 7.6
+AppType=Entry
+
+[Files]
+Application=.\HIES.ent
+InputData=.\HIESdata.dat
+Paradata=.\HIES.cslog
+
+[UserFiles]
+A_s1f=.\A_s1f.txt

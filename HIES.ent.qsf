@@ -1,0 +1,4266 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.6
+languages:
+  - name: EN
+    label: English
+  - name: SI
+    label: Sinhala
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+      
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+      
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+      
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+      
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+      
+questions:
+  - name: HIES2022_DICT.
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: HIES2022_DICT.C421
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: HIES2022_DICT.CM15_A
+    conditions:
+      - questionText:
+          EN: |
+            Are there any serious problems with the school ~~getvaluelabel(S2Q1(curocc()))~~ attends?<p></p>
+            
+          SI: |
+            &nbsp;~~getvaluelabel(S2Q1(curocc()))~~ට පාසල සම්බන්ධව පහත සඳහන් ගැටළු තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.CM17
+    conditions:
+      - questionText:
+          EN: |
+            <p>Was there any child death (aged less than 5 years) in this household during last 5 years?</p><p></p>
+            
+          SI: |
+            <p>මෙම ගෘහ ඒකකයේ පසුගිය වසර 5 තුල වයස අවුරුදු 5 ට අඩු දරුවෙකුගේ මරණයක් සිදු වුණාද ?<br></p><p></p>
+            
+  - name: HIES2022_DICT.CM1_1
+    conditions:
+      - questionText:
+          EN: |
+            Where does ~~S1Q2~~'s biological mother live?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ මෙලොවට බිහිකල මව පදිංචිව සිටින්නේ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.CM1_2
+    conditions:
+      - questionText:
+          EN: |
+            Why is she away?<p></p>
+            
+          SI: |
+            ඇය පිටත සිටින්නේ ඇයි?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.CM1_3
+    conditions:
+      - questionText:
+          EN: |
+            Where does ~~S1Q2~~'s biological father live?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ මෙලොවට බිහිකල පියා පදිංචිව සිටින්නේ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.CM1_4
+    conditions:
+      - questionText:
+          EN: |
+            Why is he away?<p></p>
+            
+          SI: |
+            ඔහු පිටත සිටින්නේ ඇයි?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.CM6
+    conditions:
+      - questionText:
+          EN: |
+            Has ~~S1Q2~~ taken any drug for intestinal worms during the last 6 months?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය මාස 6 තුල පණුවන් සඳහා කුමන හෝ ‍‍‍‍‍‍ඖෂධයක්(පණු බෙහෙත්) ලබාගෙන තිබෙනවාද ?<p></p>
+            
+  - name: HIES2022_DICT.CM7
+    conditions:
+      - questionText:
+          EN: |
+            Has ~~S1Q2~~ had diarrhea during last 2 weeks?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය සති 2 තුල පාචන තත්ත්වයක් ඇතිවී තිබුණාද ?<p></p>
+            
+  - name: HIES2022_DICT.CM8
+    conditions:
+      - questionText:
+          EN: |
+            Has ~~S1Q2~~ had an illness with a cough at any time during last 2 weeks?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය සති 2 ඇතුලත ඕනෑම වෙලාවක කැස්ස සමඟ අසනීප තත්ත්වයක් තිබුණාද&nbsp; ?<p></p>
+            
+  - name: HIES2022_DICT.CM9
+    conditions:
+      - questionText:
+          EN: |
+            Has ~~S1Q2~~ been ill with a fever at any time during last 2 weeks? (Excluding time in last question CM7 and CM8)?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය සති 2 ඇතුලත ඉහත CM7, CM8 දී හැර වෙනත්&nbsp; ඕනෑම වේලාවක උණ සමඟ වූ අසනීප තත්ත්වයක් තිබුණාද&nbsp; &nbsp;?<p></p>
+            
+  - name: HIES2022_DICT.DISTRICT
+    conditions:
+      - questionText:
+          EN: |
+            District<p></p>
+            
+          SI: |
+            දිස්ත්‍රික්කය<p></p>
+            
+  - name: HIES2022_DICT.DS_DIVISION
+    conditions:
+      - questionText:
+          EN: |
+            DS DIVISION&nbsp;<p></p>
+            
+          SI: |
+            ප්‍රා. ලේ. කොට්ඨාශය<p></p>
+            
+  - name: HIES2022_DICT.HH
+    conditions:
+      - questionText:
+          EN: |
+            Household Number<p></p>
+            
+          SI: |
+            ගෘහ ඒකක අංකය<p></p>
+            
+  - name: HIES2022_DICT.IS_BOARDERS_SERVENTS
+    conditions:
+      - questionText:
+          EN: |
+            <p>Are there Boarders and / or Domestic servants in this household?</p><div><br></div><p></p>
+            
+          SI: |
+            <p>මෙම ගෘහ ඒකකයේ නේවාසිකයින් සහ /හෝ ගෘහ සේවකයින් සිටීද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.IS_NON_AGRI_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <p>Did any&nbsp; of the household members (usual residence)&nbsp; engage in any non – agricultural activities such as industry, construction, trade and services as an employer or own account worker for sale or receiving income during last calendar months?</p><p></p>
+            
+          SI: |
+            <p>ගෘහ ඒකකයේ සමාන්‍යයෙන් පදිංචි සාමාජිකයින් ගෙන් කවරෙකු හෝ සේවායෝජකයෙකු හෝ තමාගේම වැඩකටයුතු කරන්නෙකු ලෙස පසුගිය ලිත් මාසය තුළ විකිණීම සදහා හෝ ආදායමක් ලැබීම සදහා නිෂ්පාදන කර්මාන්ත, ඉදිකිරීම්, වෙළදාම් සහ සේවාවන් වැනි කටයුතු වල නිරත වූයේද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.IS_OTHER_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <p>Did your household members received Income from other cash receipt during last calendar last calendar 12 months?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය පසුගිය ලිත් මාස 12 තුල ගෘහ ඒකකයේ සාමාජිකයන් හට&nbsp; වෙනත් මුදල්මය ලැබීම් තිබේද?<br></div>
+            
+  - name: HIES2022_DICT.IS_WINDFALL_INCOME
+    conditions:
+      - questionText:
+          EN: |
+            <p>Did your household members receive income by chance or adhoc gains during last calendar 12 months ?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ගෘහ ඒකකයේ සාමාජිකයන්&nbsp; වෙනත් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද&nbsp; ?<br></div>
+            
+  - name: HIES2022_DICT.MRCB_NO
+    conditions:
+      - questionText:
+          EN: |
+            A0 - Census Block Identification no.<p></p>
+            
+          SI: |
+            A0 - සංගණන කාණ්ඩය හඳුනා ගැනීමේ අංකය<p></p>
+            
+  - name: HIES2022_DICT.NHH
+    conditions:
+      - questionText:
+          EN: |
+            Number of Households in this unit<p></p>
+            
+          SI: |
+            නිවාස ඒකකය තුල ඇති ගෘහ ඒකක ගණන<p></p>
+            
+  - name: HIES2022_DICT.PSU
+    conditions:
+      - questionText:
+          EN: |
+            PSU Number<p></p>
+            
+          SI: |
+            ප්‍රාථමික නියැදි ඒකක අංකය<p></p>
+            
+  - name: HIES2022_DICT.S10Q1
+    conditions:
+      - questionText:
+          EN: |
+            <p>During the last 12 months, was there a time when you or others in your household worried about not having enough food to eat due to&nbsp; lack of money or other resources?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට ප්‍රමාණවත් පරිදි ආහාර නොමැති නිසා පසුතැවීමට සිදු වූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q2
+    conditions:
+      - questionText:
+          EN: |
+            <p>Still thinking about the last 12 months, was there a time when you or others in your household were unable to eat healthy and nutritious food due to lack of money or other resources?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට සෞඛ්‍ය සම්පන්න හා පෝෂ්‍යදායී ආහාර&nbsp; වර්ග පරිභෝජනය කිරීමට නොහැකි වූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q3
+    conditions:
+      - questionText:
+          EN: |
+            <p>During the last 12 months, Was there a time when you or others in your household ate only a few kinds of food due to&nbsp; lack of money or other resources?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට ආහාර වර්ග සුළු ප්‍රමාණයකට සීමා වීමට සිදු වූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q4
+    conditions:
+      - questionText:
+          EN: |
+            <p>During the last 12 months, Was there a time when you or others in your household had to skip a meal due to lack of money or other resources to get food?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට ආහාර වේලක් හෝ මගහැරීමට සිදු වූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q5
+    conditions:
+      - questionText:
+          EN: |
+            <p>Still thinking about the last 12 months, Was there a time when you or others in your household ate less than you thought due to lack of money or other resources?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට ඒක් ඒක් ආහාර වේල් සඳහා අවශ්‍ය ප්‍රමාණයට වඩා අඩු ප්‍රමාණයෙන් ආහාර පරිභෝජනය කිරීමට සිදු වූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q6
+    conditions:
+      - questionText:
+          EN: |
+            <p>During the last 12 months, Was there a time when your household ran out of food due to lack of money or other resources?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට ආහාර නොමැති වුන අවස්ථාවන් තිබුනේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q7A
+    conditions:
+      - questionText:
+          EN: |
+            <p>During the last 12 months, Was there a time when you or your household members were hungry without foods due to lack of money or other resources for food?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට ආහාර නොගෙන කුසගින්නේ සිටීමට සිදුවූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q7B
+    conditions:
+      - questionText:
+          EN: |
+            <p>If that were the case</p><p></p>
+            
+          SI: |
+            <p></p><div>ඒසේ සිදුවූයේ<br></div>
+            
+  - name: HIES2022_DICT.S10Q8A
+    conditions:
+      - questionText:
+          EN: |
+            <p>During the last 12 months, Was there a time when you or others in your household went without eating for a whole day due to&nbsp; lack of money or other resources?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුල මුදල් හෝ අනෙකුත් සම්පත් හිඟකම නිසා ඔබගේ ගෘහ කාණ්ඩයේ සාමාජිකයින්ට මුළු දවසක්ම ආහාර නොගෙන කුසගින්නේ සිටීමට සිදුවූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S10Q8B
+    conditions:
+      - questionText:
+          EN: |
+            <p>If that were the case</p><p></p>
+            
+          SI: |
+            <p></p><div>ඒසේ සිදුවූයේ<br></div>
+            
+  - name: HIES2022_DICT.S1Q10
+    conditions:
+      - questionText:
+          EN: |
+            What is the religion of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ ආගම කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q11
+    conditions:
+      - questionText:
+          EN: |
+            What is the Marital Status of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ විවාහක අවිවාහක තත්ත්වය කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q12
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ currentlly attending school or other educational institution?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ දැනට පාසලක හෝ වෙනත් අධ්‍යාපන ආයතනයක ඉගෙනුම ලබන්නේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q13
+    conditions:
+      - questionText:
+          EN: |
+            What is the educational level of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ අධ්‍යාපනික තත්වය කුමක්ද?<p></p>
+            
+  - name: HIES2022_DICT.S1Q14
+    conditions:
+      - questionText:
+          EN: |
+            What is the main activity of ~~S1Q2~~ usually engage in ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ සාමාන්‍යෙයන් යෙදී සිටින ප්‍රධාන කටයුත්ත කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q15
+    conditions:
+      - questionText:
+          EN: |
+            Did ~~S1Q2~~ involve in an economic activity?/ Have you had an economic activity during last week<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය සතිය&nbsp; තුල යම්කිසි ආර්ථික&nbsp; කටයුත්තක යෙදී සිටියේද&nbsp; ? / නිරත විමට ආර්ථික&nbsp; කටයුත්තක් තිබුණේ ද?<p></p>
+            
+  - name: HIES2022_DICT.S1Q16
+    conditions:
+      - questionText:
+          EN: |
+            What is the main occupation of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ ප්‍රධාන රැකියාව කුමක්ද?&nbsp;&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q17
+    conditions:
+      - questionText:
+          EN: |
+            What is the Industry related to ~~S1Q2~~'s main occupation?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ ප්‍රධාන රැකියාවට අදාල කර්මාන්තය කුමක්ද&nbsp; ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q18
+    conditions:
+      - questionText:
+          EN: |
+            What is the employement status of ~~S1Q2~~ related to main occupation?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ ප්‍රධාන රැකියාවේ ස්වභාවය කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q19
+    conditions:
+      - questionText:
+          EN: |
+            Where is the usual residence of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ සාමාන්‍ය පදිංචිය කොහේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q2
+    conditions:
+      - questionText:
+          EN: |
+            <s1q1>~~S1Q1~~ Name of the  person residing  in this household
+            </s1q1>
+            
+          SI: |
+            මෙම ගෘහ ඒකකයේ&nbsp; පදිංචි ~~S1Q1~~ පුද්ගලයාගේ නම ?<p></p>
+            
+  - name: HIES2022_DICT.S1Q20
+    conditions:
+      - questionText:
+          EN: |
+            Why does he/she usually live else where ?<p></p>
+            
+          SI: |
+            ඇයි ඔහු / ඇය වෙනත් ස්ථානයක සාමාන්‍ය පදිංචිව සිටින්නේ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q3
+    conditions:
+      - questionText:
+          EN: |
+            Is&nbsp;&nbsp;<s1q2>~~S1Q2~~ an usual residence?
+            </s1q2>
+            
+          SI: |
+            ~~S1Q2~~&nbsp; ට මෙම ස්ථානයේ සාමාන්‍ය පදිංචිය තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q4
+    conditions:
+      - questionText:
+          EN: |
+            What is the ~~S1Q2~~'s relationship to household head?&nbsp;<p></p>
+            
+          SI: |
+            ~~S1Q2~~ ගෘහමූලිකයාට ඇති නෑ සබඳකම&nbsp; කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q5
+    conditions:
+      - questionText:
+          EN: |
+            Sex of the member of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ ගේ ස්ත්‍රී/පුරුෂ භාවය ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q6MONTH
+    conditions:
+      - questionText:
+          EN: |
+            Month of&nbsp; birth of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            &nbsp;~~S1Q2~~ගේ උපන් මාසය ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q6YEAR
+    conditions:
+      - questionText:
+          EN: |
+            Year of birth&nbsp; &nbsp;of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ උපන් වර්ෂය ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q7
+    conditions:
+      - questionText:
+          EN: |
+            What is the age as at last birthday&nbsp; of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ පසුගිය උපන්දිනට වයස ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q8
+    conditions:
+      - questionText:
+          EN: |
+            Has birth of ~~S1Q2~~ registered&nbsp; ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ උපත ලියාපදිංචි කර තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S1Q9
+    conditions:
+      - questionText:
+          EN: |
+            What is the ethnicity of ~~S1Q2~~?<p></p>
+            
+          SI: |
+            ~~S1Q2~~&nbsp;ගේ ජන වර්ගය කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S2Q10
+    conditions:
+      - questionText:
+          EN: |
+            Why did ~~getvaluelabel(S2Q1(curocc()))~~ never attend school<p></p>
+            
+          SI: |
+            ~~getvaluelabel(S2Q1(curocc()))~~ කිසිදා පාසල් නොගියේ ඇයි?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S2Q11
+    conditions:
+      - questionText:
+          EN: |
+            Why did ~~getvaluelabel(S2Q1(curocc()))~~ leave school&nbsp; ?<p></p>
+            
+          SI: |
+            &nbsp;~~getvaluelabel(S2Q1(curocc()))~~ ඔබ පාසැල් ගොස් අතරමඟ නැවැත්වීමට ප්‍රධාන හේතුව කුමක්ද?<p></p>
+            
+  - name: HIES2022_DICT.S2Q12
+    conditions:
+      - questionText:
+          EN: |
+            Which year did ~~getvaluelabel(S2Q1(curocc()))~~ leave school ?<p></p>
+            
+          SI: |
+            ~~getvaluelabel(S2Q1(curocc()))~~ පාසල් යාම නතර කලේ කුමන අවුරුද්දේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S2Q2
+    conditions:
+      - questionText:
+          EN: |
+            
+          SI: |
+            
+  - name: HIES2022_DICT.S2Q3
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is ~~getvaluelabel(S2Q1(curocc()))~~ School education ?</p><p></p><p></p>
+            <p></p>
+            
+          SI: |
+            ~~getvaluelabel(S2Q1(curocc()))~~ගේ පාසල් අධ්‍යාපනය ?<p></p>
+            
+  - name: HIES2022_DICT.S2Q4
+    conditions:
+      - questionText:
+          EN: |
+            What is the type of school which ~~getvaluelabel(S2Q1(curocc()))~~ is attending ?<p></p>
+            
+          SI: |
+            ~~getvaluelabel(S2Q1(curocc()))~~ යන පාසලේ ස්වභාවය කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S2Q5
+    conditions:
+      - questionText:
+          EN: |
+            What is the grade attending in&nbsp; this year<p></p>
+            
+          SI: |
+            මේ වසරේ ඉගෙනුම ලබන ශ්‍රේණිය කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S2Q6
+    conditions:
+      - questionText:
+          EN: |
+            What is the grade attended in previous year ?<p></p>
+            
+          SI: |
+            පසුගිය වසරේ ඉගෙනුම ලැබූ ශ්‍රේණිය කුමක්ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S2Q7
+    conditions:
+      - questionText:
+          EN: |
+            What is the distance&nbsp; from home&nbsp; to school ( km )?<p></p>
+            
+          SI: |
+            නිවසේ සිට පාසලට ඇති දුර කොපමණද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S2Q8
+    conditions:
+      - questionText:
+          EN: |
+            What is the main mode of travel to school ?<p></p>
+            
+          SI: |
+            පාසල වෙත ගමන් කරන ප්‍රධාන ආකාරය කුමක්ද?<p></p>
+            
+  - name: HIES2022_DICT.S2Q9
+    conditions:
+      - questionText:
+          EN: |
+            What is the time taken to school for traveling (Minutes) ?<p></p>
+            
+          SI: |
+            පාසල වෙත යාමට ගතවන කාලය (විනාඩි)?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ10
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for staying ?<p></p>
+            
+          SI: |
+            එසේ&nbsp; සිටීමට හේතුව?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ11
+    conditions:
+      - questionText:
+          EN: |
+            Did ~~S1Q2~~ stay at a Private Hospital during the last 12 month as an inpatient ?<p></p>
+            
+          SI: |
+            &nbsp;~~S1Q2~~ පසුගිය මාස 12 තුල පෞද්ගලික රෝහලක නේවාසිකව ප්‍රතිකාර ලැබුවේද?<p></p>
+            
+  - name: HIES2022_DICT.S3AQ12
+    conditions:
+      - questionText:
+          EN: |
+            What is the rason for staying ?<p></p>
+            
+          SI: |
+            එසේ සිටීමට හේතුව?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ13
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ suffer from Chronic illness?&nbsp;<p></p>
+            
+          SI: |
+            ~~S1Q2~~ කලක සිට යම්කිසි රෝගයකින් /රෝග&nbsp; වලින් පෙළෙන්නේද?<p></p>
+            
+  - name: HIES2022_DICT.S3AQ14
+    conditions:
+      - questionText:
+          EN: |
+            What is the main chronic illness does ~~S1Q2~~ suffer from<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ එම ප්‍රධාන රෝගය කුමක්ද?<p></p>
+            
+  - name: HIES2022_DICT.S3AQ15
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;Is the job&nbsp; did to cause ~~S1Q2~~'s disease?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ගේ මෙම රෝග තත්ත්වය ඇතිවීමට හේතුවූයේ ඔහු /ඇය විසින් කරන ලද රැකියාවද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ16MONTH
+    conditions:
+      - questionText:
+          EN: |
+            How long has ~~S1Q2~~ been suffering from that illness ? Months<p></p>
+            
+          SI: |
+            ~~S1Q2~~ කොපමණ කාලයක සිට එම රෝගයෙන් පෙලෙන්නේද? මාස ගණන<p></p>
+            
+  - name: HIES2022_DICT.S3AQ16YEAR
+    conditions:
+      - questionText:
+          EN: |
+            How long has ~~S1Q2~~ been suffering from that illness ? Years<p></p>
+            
+          SI: |
+            ~~S1Q2~~ කොපමණ කාලයක සිට එම රෝගයෙන් පෙලෙන්නේද? වර්ෂ ගණන<p></p>
+            
+  - name: HIES2022_DICT.S3AQ17
+    conditions:
+      - questionText:
+          EN: |
+            Did ~~S1Q2~~ has to stop doing his/her usual&nbsp; activities / job because of this illness<p></p>
+            
+          SI: |
+            ~~S1Q2~~ මෙම රෝග තත්ත්වය නිසා පසුගිය මාසය තුල සාමාන්‍ය&nbsp; කටයුතු වලින්/ රැකියා වලින් බැහැරව සිටියේද?<p></p>
+            
+  - name: HIES2022_DICT.S3AQ18
+    conditions:
+      - questionText:
+          EN: |
+            If so how many days did ~~S1Q2~~ stop his/her usual activities during last month<p></p>
+            
+          SI: |
+            එසේ නම් පසුගිය මාසය තුල ~~S1Q2~~ සාමාන්‍ය වැඩ කටයුතු&nbsp; වලින්/ රෑකියා වලින් බැහැරව සිටි දින ගණන&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ3
+    conditions:
+      - questionText:
+          EN: |
+            Did ~~S1Q2~~ visit Government Hospital&nbsp; or Medical / Health Centre during the last month as outpatient ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය මාසය තුල බාහිර ප්‍රතිකාර සඳහා රජයේ&nbsp; රෝහලකට හෝ රජයේ වෛද්‍ය ආයතනයකට ගියේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ4
+    conditions:
+      - questionText:
+          EN: |
+            What is the type&nbsp; of Government Hospital / Medical Centre ?<p></p>
+            
+          SI: |
+            එම රජයේ රෝහල හෝ වෛද්‍ය ආයතනය&nbsp; කුමන වර්ගයකට අයත්ද?<p></p>
+            
+  - name: HIES2022_DICT.S3AQ5
+    conditions:
+      - questionText:
+          EN: |
+            For what kind of treatment ?<p></p>
+            
+          SI: |
+            කුමන&nbsp; ප්‍රතිකාරයක් සඳහාද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ6
+    conditions:
+      - questionText:
+          EN: |
+            Did ~~S1Q2~~ visit Private Hospital or Medical / Health Centre during the last month as out patient ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය මාසය තුල බාහිර ප්‍රතිකාර සඳහා පෞද්ගලික රෝහලකට හෝ පෞද්ගලික&nbsp; වෛද්‍ය&nbsp; ආයතනයකට ගියේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ7
+    conditions:
+      - questionText:
+          EN: |
+            For what kind of treatment ?<p></p>
+            
+          SI: |
+            කුමන ප්‍රතිකාරයක් සඳහාද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3AQ8
+    conditions:
+      - questionText:
+          EN: |
+            Did ~~S1Q2~~ stay at a Government Hospital or Medical / Health Centre during the last 12 months as out patient ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ පසුගිය මාස 12 තුල රජයේ රෝහලක නේවාසිකව ප්‍රතිකාර ලැබුවේද?<p></p>
+            
+  - name: HIES2022_DICT.S3AQ9
+    conditions:
+      - questionText:
+          EN: |
+            What is the type of Government Hospital / Medical Centre ?<p></p>
+            
+          SI: |
+            එම රජයේ රෝහල හෝ වෛද්‍ය ආයතනය කුමන වර්ගයකට අයත්ද?<p></p>
+            
+  - name: HIES2022_DICT.S3BQ1
+    conditions:
+      - questionText:
+          EN: |
+            
+          SI: |
+            
+  - name: HIES2022_DICT.S3BQ10
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ has difficalty in remembering or make attention?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ට මතක තබා ගැනීමේ හෝ අවධානය යොමු කිරීමේ අපහසුතා තිබෙනවාද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3BQ11
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ has difficalty with day today self-care, such as wearing, bathing and dressing?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ට ඇඳුම් ඇඳගැනීම හෝ ඇඟ සෝදා ගැනීම වැනි තමාගේ ඒදිනෙදා වැඩ කටයුතු තමාම කර ගැනීමේ අපහසුතා තිබෙනවාද?<p></p>
+            
+  - name: HIES2022_DICT.S3BQ12
+    conditions:
+      - questionText:
+          EN: |
+            Has ~~S1Q2~~ got difficalty to communicate using usual language understanding or being understood due physical or mental disabilities?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ට ශාරීරික හෝ මානසික හේතු නිසා තමා සාමාන්‍යයෙන් භාවිතා කරන භාෂාවෙන් අදහස් හුවමාරු කරගැනීමේ අපහසුතා තිබෙනවාද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3BQ3
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ use spectacles or lenses ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ ඇස් කණ්නාඩි හෝ කාච භාවිතා කරනවාද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3BQ4
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ have any defectives related to vision(if ~~S1Q2~~ is wearing spectacles or lenses even when he/she is wearing those) ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ට ඇස් කණ්නාඩි හෝ කාච පළඳියිනම් පැළඳ සිටියදී පවා පෙනීමේ අපහසුතාවයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3BQ5
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ use hearing aids ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ ශ්‍රවණාධාරයක් භාවිතා කරනවාද?<p></p>
+            
+  - name: HIES2022_DICT.S3BQ6
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ have any difficulties to hear? if ~~S1Q2~~ is using hearing aids even when he/she is using those?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ට ඇසීමේ අපහසුතාවයක් තිබේද?(ශ්‍රවණාධාර භාවිත කරයිනම් ඒවිට පවා)&nbsp;&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3BQ7
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~S1Q2~~ has difficalty to walk short distance or climb up or down 12 steps ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ට කෙටි දුරක් ඇවිදීම හෝ පඩි 12ක් පමණ නැගීමට හෝ බැසීමට අපහසුතාවයක් තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S3BQ8
+    conditions:
+      - questionText:
+          EN: |
+            If ~~S1Q2~~ has such difficalty, does he/she get help from any person or equipment ?<p></p>
+            
+          SI: |
+            ~~S1Q2~~ට ඒසේ අපහසුතාවයක් තිබේනම්, යම් උපකරණයක ආධාරය හෝ පුද්ගලයකුගෙන් උදව් ලබා ගන්නවාද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3BQ9
+    conditions:
+      - questionText:
+          EN: |
+            What is that?<p></p>
+            
+          SI: |
+            ඒසේනම් ඒය කුමක්ද?<p></p>
+            
+  - name: HIES2022_DICT.S43BQ10
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on&nbsp; Education&nbsp; &nbsp;within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල අධ්‍යාපනික කටයුතු සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ11
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on Non durable&nbsp; household goods within last month?</p><p></p>
+            
+          SI: |
+            <p>&nbsp; පසුගිය මාසය තුල කල් නොපවතින පාරිභෝගික භාණ්ඩ සඳහා වැයකළ මුදල කීයද ?</p><p></p>
+            
+  - name: HIES2022_DICT.S43BQ12
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on Household Services within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල ගෘහ සේවාවන් සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ13
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on&nbsp; Boarding Fees within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල නේවාසික/නවාතැන් සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ14
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you sent&nbsp; to your family&nbsp; /&nbsp; parents&nbsp; within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල සිය පවුල/මව්පියන් වෙත යවන ලද මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ15
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you t transfered as provident funds, W &amp; O P, taxes, insurance, Gift etc. within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල සේවක අර්ථසාධක, වැන්දඹු හා අනත් දරු, බදු, රක්ෂණ, පරිත්‍යාග ආදිය සඳහා යවන ලද මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ16
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on Savings within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල ඉතිරිකිරීම් සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ17
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on&nbsp; Miscellaneous within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල විවිධ වියදම් සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ18
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on&nbsp; Clothing &amp; Textiles within last 6 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 6 තුල ඇඳුම් හා රෙදිපිළි සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ3
+    conditions:
+      - questionText:
+          EN: |
+            <p>~~S1Q2~~ How much did you spent on Food purchased outside the household within last week?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ පසුගිය සතිය තුල නිවසින් පිටතදී මිලදී ගත් ආහාර සඳහා වැයකළ මුදල කීයද ?</div>
+            
+  - name: HIES2022_DICT.S43BQ4
+    conditions:
+      - questionText:
+          EN: |
+            <p>~~S1Q2~~ How much did you spent on Fuel &amp; Light within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ පසුගිය මාසය තුල ඉන්ධන සහ ආලෝකය සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ5
+    conditions:
+      - questionText:
+          EN: |
+            <p>~~S1Q2~~ How much did you spent on Personal care&nbsp; within last month?</p><div><br></div><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ පසුගිය මාසය තුල පෞද්ගලික අවශ්‍යතා සඳහා වැයකළ මුදල කීයද&nbsp; ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ6
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on Health&nbsp; within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල සෞඛ්‍ය සඳහා වැයකළ මුදල කීයද ?<br></div><div><div><br></div></div>
+            
+  - name: HIES2022_DICT.S43BQ7
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on Transport within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල ප්‍රවාහනය සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ8
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on Communicaton within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල පණිවිඩ හුවමාරුව සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S43BQ9
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did you spent on Sports, Recreation, Entertainments, Cultural &amp; Religios activites etc. within last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල ක්‍රීඩා,විනෝද, සංස්කෘතික සහ ආගමික කටයුතු&nbsp; සඳහා වැයකළ මුදල කීයද ?<br></div>
+            
+  - name: HIES2022_DICT.S51A
+    conditions:
+      - questionText:
+          EN: |
+            <p>Did any of the household members (usually live) engage as a paid employee during last 4 weeks / last calender month?</p><p></p>
+            
+          SI: |
+            <p>ගෘහ ඒකකයේ සාමාජිකයින්ගෙන් කවරෙකු හෝ පසුගිය සති හතර / ලිත් මාසය තුල වැටුප් ලබන සේවකයෙකු ලෙස ප්‍රධාන රැකියාවෙන් /රැකියාවලින් යම් ආදායමක් ලැබුවේද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.S51BQ3A
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the main occupation of ~~S1Q2~~? Explain it.</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ ගේ ප්‍රධාන රැකියාව කුමක්ද?&nbsp; විස්තර කරන්න.&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S51BQ3B
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the secondary occupation of ~~S1Q2~~?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ ගේ ද්විතියික රැකියාව කුමක්ද?<br></div>
+            
+  - name: HIES2022_DICT.S51BQ3B1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Does ~~S1Q2~~ have secondary occupation?</p><p></p>
+            
+          SI: |
+            <p>~~S1Q2~~ ද්වීතීක&nbsp; රැකියාවක නිරතවේද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.S51BQ4A
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did ~~S1Q2~~ recieve money as wage/salary from main occupation in last calander month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය සදහා ප්‍රධාන රැකියාවේ පඩිය හෝ වේතනය ලෙස ~~S1Q2~~ට කොපමණ මුදලක් ලැබුනේද?<br></div>
+            
+  - name: HIES2022_DICT.S51BQ4B
+    conditions:
+      - questionText:
+          EN: |
+            <p>&nbsp;How much did ~~S1Q2~~ recieve money as wage/salary from secondary occupation in last calander month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය සදහා ද්විතියික රැකියාවේ පඩිය හෝ වේතනය ලෙස ~~S1Q2~~ට කොපමණ මුදලක් ලැබුනේද?<br></div>
+            
+  - name: HIES2022_DICT.S51BQ5A
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did ~~S1Q2~~ recieve money as Tips, Commissions, Overtime pay etc from main occupation in last calender month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය සදහා ප්‍රධාන රැකියාවේ සන්තෝෂ දීමනා/අතිකාල දීමනා/දිරි දීමනා ආදිය ලෙස ~~S1Q2~~ට කොපමණ මුදලක් ලැබුනේද?<br></div>
+            
+  - name: HIES2022_DICT.S51BQ5B
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did ~~S1Q2~~ recieve money as Tips, Commissions, Overtime pay etc from secondary occupation in last calender month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය සදහා ද්විතියික රැකියාවේ සන්තෝෂ දීමනා/අතිකාල දීමනා/දිරි දීමනා ආදිය ලෙස ~~S1Q2~~ට කොපමණ මුදලක් ලැබුනේද?<br></div>
+            
+  - name: HIES2022_DICT.S51BQ6A
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did ~~S1Q2~~ recieve money as Bonus, Arrears Payment from main occupation in&nbsp; last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p>&nbsp;පසුගිය ලිත් මාස දොළහ සදහා ප්‍රධාන රැකියාවේ ප්‍රසාද දීමනා හිඟ වැටුප් ආදිය ලෙස ~~S1Q2~~ට කොපමණ මුදලක් ලැබුනේද?</p><p></p>
+            
+  - name: HIES2022_DICT.S51BQ6B
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much did ~~S1Q2~~ recieve money as Bonus, Arrears Payment from secondary occupation in last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p>පසුගිය ලිත් මාස දොළහ සදහා ද්විතියික රැකියාවේ ප්‍රසාද දීමනා හිඟ වැටුප් ආදිය ලෙස ~~S1Q2~~ට කොපමණ මුදලක් ලැබුනේද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.S52A
+    conditions:
+      - questionText:
+          EN: |
+            <p>Did any of the household members cultivate paddy, other seasonal crops as an employer or own account worker for sale and / or household consumption during last cultivation year?</p><p></p>
+            
+          SI: |
+            <p></p><div>ගෘහ ඒකකයේ සාමාජිකයින්ගෙන් කවරෙකු හෝ පසුගිය වගා වර්ෂය තුළ සේවායෝජකයෙකු හෝ තමාගේම වැඩ කටයුතු කරන්නෙකු ලෙස ආදායමක් ලැබීම&nbsp; සදහා සහ/හෝ ගෘහ ඒකකයේ පරිභෝජනය සදහා වී සහ වෙනත් කාලීන භෝග වගා කටයුතු වල නිරත වූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select names who cultivate paddy, other seasonal crops as an employer or own account worker for sale and / or household consumption during last cultivation year</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය වගා වර්ෂය තුළ සේවායෝජකයෙකු හෝ තමාගේම වැඩ කටයුතු කරන්නෙකු ලෙස ආදායමක් ලැබීම&nbsp; සදහා සහ/හෝ ගෘහ ඒකකයේ පරිභෝජනය සදහා වී සහ වෙනත් කාලීන භෝග වගා කටයුතු වල නිරත වූ සාමාජිකයින්ගේ නම් තෝරන්න.<br></div>
+            
+  - name: HIES2022_DICT.S52BQ10A
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ : How many Kilograms of paddy consumed by this household for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා මෙම ගෘහ කාණ්ඩය පරිභෝජනය සදහා යොදාගත් වී ප්‍රමාණය&nbsp; කිලෝ ග්‍රෑම් කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ10B
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ : What is the unit price (per 1Kg) of&nbsp; rice which made from available pady for household's consumption&nbsp; &nbsp;in&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා මෙම ගෘහ කාණ්ඩය පරිභෝජනය සදහා යොදාගත් වී වලින් ලබාගත් සහල් 1kg වටිණාකම&nbsp; &nbsp;කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ11
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ : How many kilograms of&nbsp; remaining pady for houshold's consumption from last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~විසින් ~~S52BQ4~~ සදහා : (පසුගිය වගා වර්ෂය සදහා) මෙම ගෘහ කාණ්ඩයේ පරිභෝජනය සදහා ඉතිරිව ඇති වී වල ප්‍රමාණය&nbsp; කිලෝ ග්‍රෑම්&nbsp; කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ12
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ : (for last cultivation year) How many kilograms of pady&nbsp; available for sale ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : (පසුගිය වගා වර්ෂය සදහා) මෙම ගෘහ කාණ්ඩයේ විකිණීම සදහා ඉතිරිව ඇති වී වල ප්‍රමාණය&nbsp; කිලෝ ග්‍රෑම්&nbsp; කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ13
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ : What is the value of fertilizer and other subsidies&nbsp; received for&nbsp; the last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය තුළ ලැබූ පොහොර සහනාධාර සහ වෙනත්&nbsp; සහනාධාර වල වටිණාකම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ4
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select Paddy / Other seasonal crops cultivated by ~~S1Q2~~</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් වගාකල වී හෝ වෙනත් කාලීන භෝග මොනවාද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ5
+    conditions:
+      - questionText:
+          EN: |
+            <p>How many acres did ~~S1Q2~~ have cultivated ~~S52BQ4~~?(Not for area cultivated to small cultivation like home garden cultivation)</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ වගාකළ බිම් ප්‍රමාණය අක්කර කීයද(ගෙවතු වගාවන් වැනි සුළු වශයෙන් වගාකළ බිම් ප්‍රමාණයන් සදහා අදාළ නොවේ)<br></div>
+            
+  - name: HIES2022_DICT.S52BQ6
+    conditions:
+      - questionText:
+          EN: |
+            <p>How many Rudes did ~~S1Q2~~ have Cultivated ~~S52BQ4~~ ? (Not for area cultivated to small cultivation like home garden cultivation)</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ වගාකළ බිම් ප්‍රමාණය රූඩ් කීයද<br></div>
+            
+  - name: HIES2022_DICT.S52BQ7
+    conditions:
+      - questionText:
+          EN: |
+            <p>How many perches did ~~S1Q2~~ have Cultivated ~~S52BQ4~~ ?(Not for area cultivated to small cultivation like home garden cultivation)</p><div><br></div><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ වගාකළ බිම් ප්‍රමාණය පර්චස් කීයද( ගෙවතු වගාවන් වැනි සුළු වශයෙන් වගාකළ බිම් ප්‍රමාණයන් සදහා අදාළ නොවේ<br></div>
+            
+  - name: HIES2022_DICT.S52BQ8A
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the quantity of output for last cultivation year(Kg)?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා නිමවුමේ ප්‍රමාණය කීයද(කිලෝ ග්‍රෑම්)?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ8B
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the value of output for&nbsp; last cultivation year(Rs.) ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා නිමවුමේ වටිනාකම කීයද(රුපියල්)?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9A
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of Hired Labor for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා කුළියට ගත් ශ්‍රමය වටිනාකම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9B
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of seeds for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා බීජ සඳහා වියදම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9C
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of Fertilizer for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා පොහොර සඳහා වියදම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9D
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of Chemicals for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div><br></div><div>Sinhala: ~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා රසායනික දුව්‍ය සඳහා වියදම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9E
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the Transport&nbsp; Cost for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා ප්‍රවාහන වියදම් කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9F
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of Agriculture equipment /&nbsp; Rental for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා කෘෂි උපකරණ / කුළිය වියදම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9G
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost for Fuel&nbsp; for&nbsp; last cultivation year ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S52BQ4~~ සදහා : පසුගිය වගා වර්ෂය සදහා ඉන්ධන සඳහා වියදම් කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S52BQ9H
+    conditions:
+      - questionText:
+          EN: |
+            For ~~S52BQ4~~ by ~~S1Q2~~ :&nbsp; What is the other cost of input for&nbsp; last cultivation year ?<p></p>
+            
+  - name: HIES2022_DICT.S53A
+    conditions:
+      - questionText:
+          EN: |
+            <p>Did any of the household members(usual residence) engage in other agricultural activities / Livestock as an employer or own account worker for sale during last calendar 12 months?</p><p></p>
+            
+          SI: |
+            <p></p><div>ගෘහ ඒකකයේ සමාන්‍යයෙන් පදිංචි සාමාජිකයින්ගෙන් කවරෙකු හෝ පසුගිය ලිත් මාස දොළහ තුළ සේවායෝජකයෙකු හෝ තමාගේ වැඩකටයුතු කරන්නෙකු ලෙස ආදායමක් ලැබීම සදහා කාලීන නොවන භෝග සත්ව පාලනය වැනි කටයුතුවල නිරත වූයේද?<br></div>
+            
+  - name: HIES2022_DICT.S53BQ1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select names who engage in other agricultural activities / Livestock as an employer or own account worker for sale during last calendar 12 months.</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගියලිත් මාස දොළහ තුළ සේවායෝජකයෙකු හෝ තමාගේම වැඩ කටයුතු කරන්නෙකු ලෙස ආදායමක් ලැබීම&nbsp; සදහා කාලීන නොවන භෝග සත්ව පාලනය වැනි කටයුතුවල නිරත වූ සාමාජිකයින්ගේ නම් තෝරන්න.<br></div>
+            
+  - name: HIES2022_DICT.S53BQ10
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ : What is the value of fertilizer and other subsidies(Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : ලැබූ පොහොර සහනාධාර සහ වෙනත්&nbsp; සහනාධාර වල වටිනාකම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ4
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select the agricultural product caltivated by ~~S1Q2~~ (during last calendar 12 months)</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් සිදුකරන කෘෂිකාර්මික නිෂ්පාදිතයන් මොනවාද? (පසුගියලිත් මාස දොළහ තුළ)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ5
+    conditions:
+      - questionText:
+          EN: |
+            <p>How many acres did ~~S1Q2~~ has Cultivated ~~S53BQ4~~?(Not for area cultivated to small cultivation like home garden cultivation)</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ වගාකළ බිම් ප්‍රමාණය අක්කර කීයද(ගෙවතු වගාවන් වැනි සුළු වශයෙන් වගාකළ බිම් ප්‍රමාණයන් සදහා අදාළ නොවේ )<br></div>
+            
+  - name: HIES2022_DICT.S53BQ6
+    conditions:
+      - questionText:
+          EN: |
+            <p>How many rudes did ~~S1Q2~~ has Cultivated ~~S53BQ4~~ ? (Not for area cultivated to small cultivation like home garden cultivation)</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ ටිසින් ~~S53BQ4~~ වගාකළ බිම් ප්‍රමාණය රූඩ් කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S53BQ7
+    conditions:
+      - questionText:
+          EN: |
+            <p>How many perches did ~~S1Q2~~ has cultivated ~~S53BQ4~~ ?(Not for area cultivated to small cultivation like home garden cultivation)</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ වගාකළ බිම් ප්‍රමාණය පර්චස් කීයද( ගෙවතු වගාවන් වැනි සුළු වශයෙන් වගාකළ බිම් ප්‍රමාණයන් සදහා අදාළ නොවේ<br></div>
+            
+  - name: HIES2022_DICT.S53BQ8
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the value of output (Average per month) ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : නිමවුමේ වටිනාකම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9A
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of hired labor (Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : කුළියට ගත් ශ්‍රමය වටිනාකම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9B
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost for seeds (Average per month) ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : බීජ සඳහා වියදම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9C
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of fertilizer (Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : පොහොර සඳහා වියදම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9D
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of chemicals (Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~විසින් ~~S53BQ4~~ සදහා : රසායනික දුව්‍ය සඳහා වියදම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9E
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the transport&nbsp; Cost (Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : ප්‍රවාහන වියදම් කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9F
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost for fuel&nbsp; (Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : ඉන්ධන සඳහා වියදම් කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9G
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the Cost for Animal food (Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : සත්ව ආහාර සදහා වියදම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S53BQ9H
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S53BQ4~~ by ~~S1Q2~~ :&nbsp; What is the other cost of input (Average per month)&nbsp; ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S53BQ4~~ සදහා : වෙනත් යෙදවුම් වටිනාකම කීයද? (සාමාන්‍ය මාසික)<br></div>
+            
+  - name: HIES2022_DICT.S54BQ1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select names who engage in any non - agricultural activities such as industry, construction, trade and services&nbsp; as an employer or own account worker for sale during last calendar month.</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය තුළ විකිණීම සදහා හෝ ආදායමක් ලැබීම සදහා නිෂ්පාදන කර්මාන්ත ඉදිකිරීම් වෙළදාම් සහ සේවාවන් වැනි කටයුතු වල නිරත වූ සාමාජිකයින්ගේ නම් තෝරන්න.<br></div>
+            
+  - name: HIES2022_DICT.S54BQ4
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select any non - agricultural activities as an employer or own account worker for sale during last calendar month ~~S1Q2~~ engage in.</p><p></p>
+            
+          SI: |
+            <p>~~S1Q2~~ විසින් පසුගිය ලිත් මාසය තුළ විකිණීම සදහා හෝ ආදායමක් ලැබීම සදහා නිෂ්පාදන කර්මාන්ත ඉදිකිරීම් වෙළදාම් සහ සේවාවන් වැනි කටයුතු වල නිරත වූ ආර්ථික කටයුත්ත කුමක්ද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.S54BQ5
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ5~~ by ~~S1Q2~~ :&nbsp; What is the value of output for&nbsp; last&nbsp; calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S54BQ5~~ සදහා : පසුගිය ලිත් මාසය සදහා නිමවුමේ වටිනාකම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S54BQ6A
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost for raw materials for&nbsp; last calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S54BQ4~~ සදහා : පසුගිය ලිත් මාසයේ අමුද්‍රව්‍ය සඳහා වියදම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S54BQ6B
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost for fuel for last calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S54BQ4~~ සදහා : පසුගිය ලිත් මාසයේ ඉන්ධන සඳහා වියදම් කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S54BQ6C
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of electricity for last calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S54BQ4~~ සදහා : පසුගිය ලිත් මාසයේ විදුලිය සඳහා වියදම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S54BQ6D
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ4~~ by ~~S1Q2~~ :&nbsp; What is the transport cost for last calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S54BQ4~~ සදහා : පසුගිය ලිත් මාසයේ ප්‍රවාහන වියදම් කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S54BQ6E
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ4~~ by ~~S1Q2~~ :&nbsp; What is the cost of Hired Labor for last calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S54BQ4~~ සදහා : පසුගිය ලිත් මාසයේ කුළියට ගත් ශ්‍රමය වටිනාකම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S54BQ6F
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ4~~ by ~~S1Q2~~ :&nbsp; What is the other cost of rental / other services for last calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~S1Q2~~ විසින් ~~S54BQ4~~ සදහා : පසුගිය ලිත් මාසයේ වෙනත් වෙනත් සේවා හා කුළී වටිනාකම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S54BQ7
+    conditions:
+      - questionText:
+          EN: |
+            <p>For ~~S54BQ4~~ by ~~S1Q2~~ : What is the value of subsidies for last calendar month ?</p><p></p>
+            
+          SI: |
+            <p></p><div>Sinhala: ~~S1Q2~~ විසින් ~~S54BQ4~~ සදහා : පසුගිය ලිත් මාසය තුළ ලැබූ&nbsp; සහනාධාර වල වටිණාකම කීයද?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select names who got income from other cash receipt.</p><p></p>
+            
+          SI: |
+            <p></p><div>වෙනත් මුදල්මය ලැබීම් ඇති සාමාජිකයින්ගේ නම් තෝරන්න.<br></div>
+            
+  - name: HIES2022_DICT.S551BQ10
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; payment&nbsp; did ~~S1Q2~~ receive&nbsp; from Triposha&nbsp; food program ? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~&nbsp; ත්‍රිපෝෂ පෝෂණ දීමනාව සඳහා ලබාදෙන&nbsp; දීමනා වලින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ11
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount ~~S1Q2~~ had to pay for credit card ? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~&nbsp; ට credit card සඳහා ගෙවීමට තිබූ මුදල කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ12
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of income did ~~S1Q2~~ receive&nbsp; as&nbsp; Rent from properties/boarding fees or income from family farming ? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~&nbsp; දේපල වලින් කුලී/නේවාසික ගාස්තු ආදිය හෝ ගෙවත්තෙන් ලද ආදායම මගින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ13
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; income did ~~S1Q2~~ receive as Dividends/Interests/Investments/Share sells&nbsp; within last calender 12 months?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාස 12 තුල ~~S1Q2~~&nbsp; ලාභාංශ පොළී / ආයෝජන කොටස් විකිණීම් ආදිය මගින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ14
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; income&nbsp; did ~~S1Q2~~ receive&nbsp; from other Income within last calender 12 months?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; වෙනත් ආදායම්&nbsp; මගින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ15
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; income&nbsp; did ~~S1Q2~~ receive as current remittance &amp; transfers from foreign country&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාස 12 තුල ~~S1Q2~~&nbsp; ජංගම ප්‍රේෂණයන් , පැවරුම් මගින් විදේශ රටකින් ලද මුල්‍යමය අදායම&nbsp; කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ16
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; income did ~~S1Q2~~ receive&nbsp; as current remittance &amp; transfers from within this country&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; ජංගම ප්‍රේෂණයන් , පැවරුම් මගින් මෙරටින් ලද මුල්‍යමය අදායම&nbsp; කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ3
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; payment&nbsp; did ~~S1Q2~~ receive&nbsp; as pension payment? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~ විශ්‍රාම වැටුප් වලින් ලැබූ&nbsp; මුදල්මය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ4
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; payment did ~~S1Q2~~ receive as disability payment? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~ ආබාධිතයන් සඳහා දීමනා වලින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ5
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; payment did ~~S1Q2~~ receive as Samurdi Payment ? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~ සමෘද්ධි දීමනා වලින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ6
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; &nbsp;payment did ~~S1Q2~~ receive&nbsp; as&nbsp; elderly payments? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~&nbsp; වැඩිහිටියන් සඳහා ලබාදෙන&nbsp; දීමනා වලින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ7
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; payment did ~~S1Q2~~ receive&nbsp; as Tuberculosis/kidney diseases payment? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~&nbsp; ක්‍ෂය රෝග /වකුගඩු රෝග&nbsp; සඳහා ලබාදෙන&nbsp; දීමනා වලින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ8
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; payment did ~~S1Q2~~ receive as Educational &amp; Scholarships ? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~&nbsp; ශිෂ්‍යාධාර /ශිෂ්‍යත්ව&nbsp; සඳහා ලබාදෙන&nbsp; දීමනා වලින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S551BQ9
+    conditions:
+      - questionText:
+          EN: |
+            <p>What was the amount of&nbsp; payment did ~~S1Q2~~ receive&nbsp; from School food program? (within last calender month/ Monthly average)</p><p></p>
+            
+          SI: |
+            <p></p><div>(පසුගිය ලිත් මාසය තුල / සාමාන්‍ය මාසික) ~~S1Q2~~&nbsp; පාසල් දිවා&nbsp; ආහාරය&nbsp; &nbsp;සඳහා ලබාදෙන&nbsp; දීමනා වලින් ලැබූ&nbsp; මුල්‍යමය ලැබීම් කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Select names who got Income by chance or adhoc gains during last calendar 12 months.</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ගෘහ ඒකකයේ අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබූ සාමාජිකයින්ගේ නම් තෝරන්න.<br></div>
+            
+  - name: HIES2022_DICT.S552BQ10
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive&nbsp; from other ( lottery &amp; other adhoc gains)&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; වෙනත්(ලොතරැයි, රේස් , දිනුම් යනාදිය)&nbsp; ආදියෙන් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ11
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive from foods and other commendations&nbsp; &nbsp;within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; අහාර දීමනා / වෙනත් ද්‍රව්‍යමය සහනාධාර&nbsp; ආදියෙන් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ12
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive from disaster/other relief payments&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; අපදා සහන දීමනා/වෙනත් සහන දීමනා ආදියෙන් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ3
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; &nbsp;taken from banks / money lenders, etc (*including credit cards) as a loan within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාස 12 තුල ~~S1Q2~~&nbsp; ලබාගත් ණය මුදල්(බැංකු/පෞද්ගලික ) ණය&nbsp; කාර්ඩ් ඇතුළුව මුල්‍යමය අදායම&nbsp; කොපමණද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ4
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive&nbsp; from Sale of assests (Land, house, jewellary)&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; රත්තරන් බඩු /දේපල විකිණීම් හා උකස් තැබීම් වලින් ලබාගත් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ5
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive&nbsp; &nbsp;from Withdrawals from savings, bank deposits, Grativity, Provident fund&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; බැංකු තැන්පතු මුදල්/විශ්‍රාම පාරිතොෂක/ අර්ථසාධක මුදල්&nbsp; වලින් ලබාගත් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ6
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive&nbsp; from births, deaths, marriages, welfare society, etc&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; උපත්,විවාහ,මරණ වෙනුවෙන්, මරණාධාර සමිති සුභසාදක සංගම් ආදියෙන් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ7
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive&nbsp; from Seettu / Repayments of loans given&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; සීට්ටු /ණය ආපසු ලැබීම ආදියෙන් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ8
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive&nbsp; from Health and medical aids within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; සෞඛ්‍ය හා වෛද්‍යාධාර&nbsp; ආදියෙන් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S552BQ9
+    conditions:
+      - questionText:
+          EN: |
+            <p>How much money&nbsp; did ~~S1Q2~~ receive&nbsp; &nbsp;from Compensation/&nbsp; Insurance etc&nbsp; within last calender 12 month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය ලිත් මාසය 12 තුල ~~S1Q2~~&nbsp; අලාභ /වන්දි/රක්ෂණ&nbsp; ආදියෙන් අහඹු&nbsp; මුල්‍යමය අදායමක් ලැබුවේද ?<br></div>
+            
+  - name: HIES2022_DICT.S6A
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;Has&nbsp; your household got items listed below?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව පහත සඳහන් උපකරණ තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A4
+    conditions:
+      - questionText:
+          EN: |
+            How many ~~getCapiQ1(S6A1)~~&nbsp;&nbsp;are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව ~~getCapiQ1(S6A1)~~&nbsp;කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A5
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this 1st ~~getCapiQ1(S6A1)~~&nbsp;?<p></p>
+            
+          SI: |
+            1&nbsp;වන ~~getCapiQ1(S6A1)~~&nbsp;පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50013
+    conditions:
+      - questionText:
+          EN: |
+            
+          SI: |
+            
+  - name: HIES2022_DICT.S6A50014
+    conditions:
+      - questionText:
+          EN: |
+            How many Radio /&nbsp; Cassette players&nbsp; are in your household?<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව ගුවන් විදුලි යන්ත්‍ර / කැසට් වාදන යන්ත්‍ර කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50015
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this &lt;i&gt;th Radio /&nbsp; Cassette player ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගුවන් විදුලි යන්ත්‍ර / කැසට් වාදන යන්ත්‍ර ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50016
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this &lt;i th&gt; Radio /&nbsp; Cassette player ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගුවන් විදුලි යන්ත්‍ර / කැසට් වාදන යන්ත්‍ර ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50017
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this &lt;i th&gt; Radio /&nbsp; Cassette player ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගුවන් විදුලි යන්ත්‍ර / කැසට් වාදන යන්ත්‍ර ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50018
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this &lt;i th&gt; Radio /&nbsp; Cassette player ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගුවන් විදුලි යන්ත්‍ර / කැසට් වාදන යන්ත්‍ර ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50019
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this &lt;i th&gt; Radio /&nbsp; Cassette player ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගුවන් විදුලි යන්ත්‍ර / කැසට් වාදන යන්ත්‍ර ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50024
+    conditions:
+      - questionText:
+          EN: |
+            How many Televisions are in your household?<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව රූපවාහිනී යන්ත්‍රකීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50025
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Television &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt; i &gt; වන රූපවාහිනී යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50026
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Television &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt; i &gt; වන රූපවාහිනී යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50027
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Television &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt; i &gt; වන රූපවාහිනී යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50028
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Television &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt; i &gt; වන රූපවාහිනී යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50029
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Television &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt; i &gt; වන රූපවාහිනී යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50034
+    conditions:
+      - questionText:
+          EN: |
+            How many V.C.D / D.V.D&nbsp; &nbsp;are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව V.C.D /D.V.D යන්ත්‍ර කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50035
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;How many years did you use this V.C.D / D.V.D &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන V.C.D /D.V.D යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50036
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;How many years did you use this V.C.D / D.V.D &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන V.C.D /D.V.D යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50037
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;How many years did you use this V.C.D / D.V.D &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන V.C.D /D.V.D යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50038
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;How many years did you use this V.C.D / D.V.D &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන V.C.D /D.V.D යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50039
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;How many years did you use this V.C.D / D.V.D &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන V.C.D /D.V.D යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50044
+    conditions:
+      - questionText:
+          EN: |
+            How many Sewing machiness&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව මහන මැෂින් කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50045
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this&nbsp; Sewing machines &lt;i th&gt;?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මහන මැෂිම පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50046
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this&nbsp; Sewing machines &lt;i th&gt;?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මහන මැෂිම පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50047
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this&nbsp; Sewing machines &lt;i th&gt;?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මහන මැෂිම පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50048
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this&nbsp; Sewing machines &lt;i th&gt;?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මහන මැෂිම පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50049
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this&nbsp; Sewing machines &lt;i th&gt;?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මහන මැෂිම පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50054
+    conditions:
+      - questionText:
+          EN: |
+            How many Washing machines&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව රෙදි සෝදන යන්ත්‍ර කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50055
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Washing machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන රෙදි සෝදන යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50056
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Washing machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන රෙදි සෝදන යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50057
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Washing machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන රෙදි සෝදන යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50058
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Washing machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන රෙදි සෝදන යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50059
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Washing machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන රෙදි සෝදන යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50064
+    conditions:
+      - questionText:
+          EN: |
+            How many Refregirators are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව ශීතකරණ කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50065
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Refregirator &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ශීතකරණය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50066
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Refregirator &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ශීතකරණය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50067
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Refregirator &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ශීතකරණය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50068
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Refregirator &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ශීතකරණය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50069
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Refregirator &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ශීතකරණය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50074
+    conditions:
+      - questionText:
+          EN: |
+            How many Cookers (Gas, Kerosene, Electric)s are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව උදුන් (ගෑස්/භූමිතෙල්/විදුලි) කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50075
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Cookers (Gas, Kerosene, Electric) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන උදුන් (ගෑස්/භූමිතෙල්/විදුලි)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50076
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Cookers (Gas, Kerosene, Electric) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන උදුන් (ගෑස්/භූමිතෙල්/විදුලි)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50077
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Cookers (Gas, Kerosene, Electric) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන උදුන් (ගෑස්/භූමිතෙල්/විදුලි)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50078
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Cookers (Gas, Kerosene, Electric) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන උදුන් (ගෑස්/භූමිතෙල්/විදුලි)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50079
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Cookers (Gas, Kerosene, Electric) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන උදුන් (ගෑස්/භූමිතෙල්/විදුලි)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50084
+    conditions:
+      - questionText:
+          EN: |
+            How many Fans&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව විදුලි පංකා කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50085
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fan &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන විදුලි පංකාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50086
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fan &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන විදුලි පංකාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50087
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fan &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන විදුලි පංකාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50088
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fan &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන විදුලි පංකාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50089
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fan &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන විදුලි පංකාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50094
+    conditions:
+      - questionText:
+          EN: |
+            How many Telephone (Domestic)s&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව දුරකථන (ගෘහස්ත ) කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50095
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Domestic) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt;&nbsp; වන දුරකථන (ගෘහස්ත )ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50096
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Domestic) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt;&nbsp; වන දුරකථන (ගෘහස්ත )ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50097
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Domestic) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt;&nbsp; වන දුරකථන (ගෘහස්ත )ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50098
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Domestic) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt;&nbsp; වන දුරකථන (ගෘහස්ත )ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50099
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Domestic) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt;&nbsp; වන දුරකථන (ගෘහස්ත )ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50104
+    conditions:
+      - questionText:
+          EN: |
+            How many Telephone (Mobile)s&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව දුරකථන (ජංගම) කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50105
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Mobile) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන දුරකථන (ජංගම)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50106
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Mobile) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන දුරකථන (ජංගම)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50107
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Mobile) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන දුරකථන (ජංගම)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50108
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Mobile) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන දුරකථන (ජංගම)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50109
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Telephone (Mobile) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන දුරකථන (ජංගම)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50114
+    conditions:
+      - questionText:
+          EN: |
+            How many Personal Computers/ Laptop/ Tablets&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව පරිඝනක යන්ත්‍ර/ලැප්ටොප්/ටැබ්ලට් කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50115
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Personal Computers/ Laptop/ Tablet &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන පරිඝනක යන්ත්‍ර/ලැප්ටොප්/ටැබ්ලට්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50116
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Personal Computers/ Laptop/ Tablet &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන පරිඝනක යන්ත්‍ර/ලැප්ටොප්/ටැබ්ලට්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50117
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Personal Computers/ Laptop/ Tablet &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන පරිඝනක යන්ත්‍ර/ලැප්ටොප්/ටැබ්ලට්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50118
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Personal Computers/ Laptop/ Tablet &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන පරිඝනක යන්ත්‍ර/ලැප්ටොප්/ටැබ්ලට්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50119
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Personal Computers/ Laptop/ Tablet &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන පරිඝනක යන්ත්‍ර/ලැප්ටොප්/ටැබ්ලට්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50124
+    conditions:
+      - questionText:
+          EN: |
+            How many Camera / Video cameras&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව කැමරා/වීඩියෝ කැමරා කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50125
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Camera / Video camera &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන කැමරා/වීඩියෝ කැමරාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50126
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Camera / Video camera &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන කැමරා/වීඩියෝ කැමරාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50127
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Camera / Video camera &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන කැමරා/වීඩියෝ කැමරාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50128
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Camera / Video camera &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන කැමරා/වීඩියෝ කැමරාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50129
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Camera / Video camera &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන කැමරා/වීඩියෝ කැමරාව පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50134
+    conditions:
+      - questionText:
+          EN: |
+            How many Air conditionerss&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව වායු සමීකරණ යන්ත්‍ර කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50135
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Air conditioners &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වායු සමීකරණ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50136
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Air conditioners &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වායු සමීකරණ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50137
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Air conditioners &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වායු සමීකරණ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50138
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Air conditioners &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වායු සමීකරණ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50139
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Air conditioners &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වායු සමීකරණ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50144
+    conditions:
+      - questionText:
+          EN: |
+            How many Bicycles&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව බයිසිකලය කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50145
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bicycle &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බයිසිකලයය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50146
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bicycle &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බයිසිකලයය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50147
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bicycle &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බයිසිකලයය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50148
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bicycle &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බයිසිකලයය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50149
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bicycle &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බයිසිකලයය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50154
+    conditions:
+      - questionText:
+          EN: |
+            How many Motor cycles / Scooterss are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව මෝටර් බයිසිකල් / ස්කූටර් කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50155
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cycles / Scooters &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් බයිසිකල් / ස්කූටර්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50156
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cycles / Scooters &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් බයිසිකල් / ස්කූටර්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50157
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cycles / Scooters &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් බයිසිකල් / ස්කූටර්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50158
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cycles / Scooters &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් බයිසිකල් / ස්කූටර්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50159
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cycles / Scooters &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් බයිසිකල් / ස්කූටර්ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50164
+    conditions:
+      - questionText:
+          EN: |
+            How many Three wheelers&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව ත්‍රීවිලර්&nbsp; කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50165
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Three wheeler &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ත්‍රීවිලර් ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50166
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Three wheeler &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ත්‍රීවිලර් ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50167
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Three wheeler &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ත්‍රීවිලර් ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50168
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Three wheeler &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ත්‍රීවිලර් ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50169
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Three wheeler &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ත්‍රීවිලර් ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50174
+    conditions:
+      - questionText:
+          EN: |
+            How many Motor cars / Vans&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව මෝටර් රථ / වෑන් /ජීප් කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50175
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cars / Van &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් රථ / වෑන් /ජීප්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50176
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cars / Van &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් රථ / වෑන් /ජීප්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50177
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cars / Van &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් රථ / වෑන් /ජීප්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50178
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cars / Van &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් රථ / වෑන් /ජීප්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50179
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Motor cars / Van &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මෝටර් රථ / වෑන් /ජීප්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50184
+    conditions:
+      - questionText:
+          EN: |
+            How many Bus / Lorry / Tippers are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව බස්/ලොරි/ටිපර් කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50185
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bus / Lorry / Tipper &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බස්/ලොරි/ටිපර්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50186
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bus / Lorry / Tipper &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බස්/ලොරි/ටිපර්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50187
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bus / Lorry / Tipper &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බස්/ලොරි/ටිපර්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50188
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bus / Lorry / Tipper &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බස්/ලොරි/ටිපර්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50189
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Bus / Lorry / Tipper &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බස්/ලොරි/ටිපර්ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50194
+    conditions:
+      - questionText:
+          EN: |
+            How many Tractors (Two wheel)s are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව ට්‍රැක්ටර් (රෝද 2) කීයක් තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S6A50195
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Two wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 2)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50196
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Two wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 2)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50197
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Two wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 2)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50198
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Two wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 2)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50199
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Two wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 2)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50204
+    conditions:
+      - questionText:
+          EN: |
+            How many Tractors (Four wheel)s&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව ට්‍රැක්ටර් (රෝද 4) කීයක් තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S6A50205
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Four wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 4)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50206
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Four wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 4)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50207
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Four wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 4)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50208
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Four wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 4)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50209
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Tractors (Four wheel) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ට්‍රැක්ටර් (රෝද 4)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50214
+    conditions:
+      - questionText:
+          EN: |
+            How many Sprayers have are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව බෙහෙත් විදින යන්ත්‍ර කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50215
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Sprayer &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෙහෙත් විදින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50216
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Sprayer &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෙහෙත් විදින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50217
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Sprayer &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෙහෙත් විදින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50218
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Sprayer &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෙහෙත් විදින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50219
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Sprayer &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෙහෙත් විදින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50224
+    conditions:
+      - questionText:
+          EN: |
+            How many Threshers are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව ගොයම් කපන / පාහින යන්ත්‍ර කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50225
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Thresher &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගොයම් කපන / පාහින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50226
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Thresher &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගොයම් කපන / පාහින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50227
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Thresher &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගොයම් කපන / පාහින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50228
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Thresher &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගොයම් කපන / පාහින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50229
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Thresher &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන ගොයම් කපන / පාහින යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50234
+    conditions:
+      - questionText:
+          EN: |
+            How many Water pumps (Only for agricultural purpose)s&nbsp; are in your household?<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව වතුර පොම්ප ( කෘෂිකාර්මික කටයුතු සඳහා පමණක්) කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50235
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Water pumps (Only for agricultural purpose) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වතුර පොම්ප ( කෘෂිකාර්මික කටයුතු සඳහා පමණක්)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50236
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Water pumps (Only for agricultural purpose) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වතුර පොම්ප ( කෘෂිකාර්මික කටයුතු සඳහා පමණක්)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50237
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Water pumps (Only for agricultural purpose) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වතුර පොම්ප ( කෘෂිකාර්මික කටයුතු සඳහා පමණක්)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50238
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Water pumps (Only for agricultural purpose) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වතුර පොම්ප ( කෘෂිකාර්මික කටයුතු සඳහා පමණක්)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50239
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Water pumps (Only for agricultural purpose) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන වතුර පොම්ප ( කෘෂිකාර්මික කටයුතු සඳහා පමණක්)ය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50244
+    conditions:
+      - questionText:
+          EN: |
+            How many Combined havesting machines are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව සංයුක්ත අස්වැන්න නෙලීමේ යන්ත්‍ර කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50245
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Combined havesting machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන සංයුක්ත අස්වැන්න නෙලීමේ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50246
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Combined havesting machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන සංයුක්ත අස්වැන්න නෙලීමේ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50247
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Combined havesting machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන සංයුක්ත අස්වැන්න නෙලීමේ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50248
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Combined havesting machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන සංයුක්ත අස්වැන්න නෙලීමේ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50249
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Combined havesting machine &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &nbsp;&lt;i &gt; වන සංයුක්ත අස්වැන්න නෙලීමේ යන්ත්‍රය පරිහරණය කල කාලය කොපමණද ?<p></p>
+            
+  - name: HIES2022_DICT.S6A50254
+    conditions:
+      - questionText:
+          EN: |
+            How many Boat (Fishing)s&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව බෝට්ටු (ධීවර) කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50255
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Boat (Fishing) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෝට්ටු (ධීවර)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50256
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Boat (Fishing) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෝට්ටු (ධීවර)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50257
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Boat (Fishing) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෝට්ටු (ධීවර)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50258
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Boat (Fishing) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෝට්ටු (ධීවර)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50259
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Boat (Fishing) &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන බෝට්ටු (ධීවර)ය පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50264
+    conditions:
+      - questionText:
+          EN: |
+            How many Fishing nets&nbsp; are in your household?&nbsp;<p></p>
+            
+          SI: |
+            ඔබ ගෘහ ඒකකය සතුව මාළු දැල් කීයක් තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50265
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fishing net &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මාළු දැල් පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50266
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fishing net &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මාළු දැල් පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50267
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fishing net &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මාළු දැල් පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50268
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fishing net &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මාළු දැල් පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A50269
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this Fishing net &lt;i th&gt; ?<p></p>
+            
+          SI: |
+            &lt;i &gt; වන මාළු දැල් පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A6
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this 2nd ~~getCapiQ1(S6A1)~~&nbsp;?<p></p>
+            
+          SI: |
+            2&nbsp;වන ~~getCapiQ1(S6A1)~~ පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A7
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this 3rd ~~getCapiQ1(S6A1)~~&nbsp;?<p></p>
+            
+          SI: |
+            3&nbsp;වන ~~getCapiQ1(S6A1)~~&nbsp;පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A8
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this 4th ~~getCapiQ1(S6A1)~~?<p></p>
+            
+          SI: |
+            4&nbsp;වන ~~getCapiQ1(S6A1)~~&nbsp;පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6A9
+    conditions:
+      - questionText:
+          EN: |
+            How many years did you use this 5th ~~getCapiQ1(S6A1)~~&nbsp;?<p></p>
+            
+          SI: |
+            5&nbsp;වන ~~getCapiQ1(S6A1)~~&nbsp;පරිහරණය කල කාලය කොපමණද ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6B
+    conditions:
+      - questionText:
+          EN: |
+            <p>Have any of the household members debited to the followings? (Excluding borders and servents)</p><p></p>
+            
+          SI: |
+            නිවසේ සාමාජිකයින් (නේවාසිකයින් / ගෘහ සේවකයින් හැර) පහත සඳහන් ආකාරයෙන් ණය වී තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ103
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ104
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ13
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ14
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ22
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: HIES2022_DICT.S6BQ23
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ24
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ32
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: HIES2022_DICT.S6BQ33
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ34
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ3_AMOUNT
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~ getCapiQ2(S6BQ1_CODE)~~&nbsp;?</p><p></p>
+            
+          SI: |
+            ~~getCapiQ2(S6BQ1_CODE)~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br><p></p>
+            
+  - name: HIES2022_DICT.S6BQ42
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: HIES2022_DICT.S6BQ43
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ44
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ4_REASON
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the reason for indebtedness to ~~getCapiQ2(S6BQ1_CODE)~~?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~getCapiQ2(S6BQ1_CODE)~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ52
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: HIES2022_DICT.S6BQ53
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ54
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ62
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: HIES2022_DICT.S6BQ63
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ64
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ73
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ74
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ83
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p></p>
+            
+          SI: |
+            <p></p><div>~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S6BQ84
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S6BQ92
+    conditions:
+      - questionText:
+          SI: |
+            
+  - name: HIES2022_DICT.S6BQ93
+    conditions:
+      - questionText:
+          EN: |
+            <p>Arrears to be paid&nbsp; for ~~~~ ?</p><p><br></p><p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ගෙවීමට ඇති හිඟ මුදල් (රු) කොපමණ තිබේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S6BQ94
+    conditions:
+      - questionText:
+          EN: |
+            What is the reason for indebtedness to ~~~~?<p></p>
+            
+          SI: |
+            ~~~~&nbsp; වෙත ණයවීමට හේතුව කුමක්ද ?<p></p>
+            
+  - name: HIES2022_DICT.S71Q102
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; &nbsp;M. O. H. Office from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති සෞඛ්‍ය වෙද්‍ය නිලධාරී කාර්යාලයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?<p></p>
+            
+  - name: HIES2022_DICT.S71Q103
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest&nbsp; M. O. H. Office from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති සෞඛ්‍ය වෙද්‍ය නිලධාරී කාර්යාලයට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q112
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the&nbsp; &nbsp;M.C. / U. C. / P. S. from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            මහා නගර සභා / නගර සභා/ ප්‍රාදේශීය සභාට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?<p></p>
+            
+  - name: HIES2022_DICT.S71Q113
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the M.C. / U. C. / P. S. from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට&nbsp; මහා නගර සභා / නගර සභා/ ප්‍රාදේශීය සභාට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?<p></p>
+            
+  - name: HIES2022_DICT.S71Q12
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest bus stop from your house?(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති බස් නැවතුමට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?<p></p>
+            
+  - name: HIES2022_DICT.S71Q122
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the&nbsp; &nbsp; Divisional Secretariat officefrom your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ප්‍රාදේශීය ලේකම් කාර්යාලයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q123
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the Divisional Secretariat office&nbsp; from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ප්‍රාදේශීය ලේකම් කාර්යාලයට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q13
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest&nbsp; bus stop from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති බස් නැවතුමට ලඟා වීමට ගතවන කාලය කොපමණ ද (විනාඩි)?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q132
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the&nbsp; &nbsp; G. N. Office from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ග්‍රා .නි. කාර්යාලයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q133
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the&nbsp; G. N. Office&nbsp; &nbsp;from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ග්‍රා .නි. කාර්යාලයට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q142
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the&nbsp; Post office from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            තැපැල් / උප තැපැල් කාර්යාලයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q143
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the&nbsp; Post office / Sub post office&nbsp; from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට තැපැල් / උප තැපැල් කාර්යාලයට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?<p></p>
+            
+  - name: HIES2022_DICT.S71Q152
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the&nbsp; nearest Bank (Govt. / Private) from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති රජයේ /පෞද්ගලික බැංකුවට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q153
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the Bank (Govt. / Private)&nbsp; &nbsp;from your house (Minutes)?<p></p>
+            
+          SI: |
+            ඔබට රජයේ /පෞද්ගලික බැංකුවට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q162
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the Agrarian Service Center ) from your house(Km) ?<p></p>
+            
+          SI: |
+            ගොවිජන සේවා මධ්‍යස්ථානයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q163
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the Agrarian Service Center&nbsp; &nbsp;from your house (Minutes)?<p></p>
+            
+          SI: |
+            ඔබට ගොවිජන සේවා මධ්‍යස්ථානයට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q22
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; Pre school / Montessori&nbsp; from your house?(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ළදරු පාසල / පෙර පාසලට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q23
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest Pre school / Montessori&nbsp; &nbsp;from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති&nbsp; ළදරු පාසල / පෙර පාසලට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?<p></p>
+            
+  - name: HIES2022_DICT.S71Q2_DISTANCE
+    conditions:
+      - questionText:
+          EN: |
+            <p>How far is it to the nearest ~~ getCapiQ3(S71Q1_CODE)~~ from your house?(Km) ?&nbsp;</p><p><p></p></p>
+            
+          SI: |
+            ලඟම ඇති ~~ getCapiQ3(S71Q1_CODE)~~ට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q32
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; &nbsp;Primary School&nbsp; from your house?(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති ප්‍රාථමික විද්‍යාලයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q33
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest Primary School&nbsp; &nbsp;from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති ප්‍රාථමික විද්‍යාලයට ලඟා වීමට ගතවන කාලය කොපමණ ද(විනාඩි)?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q3_TIME
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest&nbsp; ~~getCapiQ3(S71Q1_CODE)~~ from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති ~~getCapiQ3(S71Q1_CODE)~~ට ලඟා වීමට ගතවන කාලය කොපමණ ද (විනාඩි)?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q42
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; &nbsp;Maha Vidyalaya&nbsp; / M.M.V. / National&nbsp; school&nbsp; &nbsp;from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති මහා විද්‍යාලය/ ම.ම.වි / ජාතික පාසලට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q43
+    conditions:
+      - questionText:
+          EN: |
+            Time taken from your house to Maha Vidyalaya&nbsp; / M.M.V. / National&nbsp; school (Minutes)?<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති&nbsp; මහා විද්‍යාලය/ ම.ම.වි / ජාතික පාසලට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q52
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; Base Hospital / Teaching Hospital / District Hospital&nbsp; &nbsp;from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති මුලික රෝහල / ශික්ෂණ රෝහල / දිස්ත්‍රික් රෝහලට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q53
+    conditions:
+      - questionText:
+          EN: |
+            Time taken from your house to nearst Base Hospital / Teaching Hospital / District Hospital(Minutes)?<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති&nbsp; මුලික රෝහල / ශික්ෂණ රෝහල / දිස්ත්‍රික් රෝහලට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q62
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; Maternity Home&nbsp; &nbsp;from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති මාතෘ නිවාසයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?<p></p>
+            
+  - name: HIES2022_DICT.S71Q63
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest Maternity Home from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති මාතෘ නිවාසයට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q72
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; &nbsp;Government Dispensary from your house(Km) ?<p></p>
+            
+          SI: |
+            ලඟම ඇති රජයේ ඩිස්පැන්සරියට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q73
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest Government Dispensary from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති රජයේ ඩිස්පැන්සරියට ලඟා වීමට ගතවන කාලයකොපමණ ද (විනාඩි)?<p></p>
+            
+  - name: HIES2022_DICT.S71Q82
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; &nbsp;Private Dispensary from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති පෞද්ගලික ඩිස්පැන්සරියට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?<p></p>
+            
+  - name: HIES2022_DICT.S71Q83
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest&nbsp; Private Dispensary from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති පෞද්ගලික ඩිස්පැන්සරියට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?<p></p>
+            
+  - name: HIES2022_DICT.S71Q92
+    conditions:
+      - questionText:
+          EN: |
+            How far is it to the nearest&nbsp; &nbsp;Clinic (Maternity / Infancy) from your house(Km) ?&nbsp;<p></p>
+            
+          SI: |
+            ලඟම ඇති මාතෘ/ළදරු සායන මධ්‍යස්ථානයට නිවාස ඒකකයේ සිට ඇති දුර කොපමණද (කිලෝ මීටර) ?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S71Q93
+    conditions:
+      - questionText:
+          EN: |
+            How long does it take to the nearest&nbsp; Clinic (Maternity / Infancy) from your house (Minutes)?&nbsp;<p></p>
+            
+          SI: |
+            ඔබට ලඟම ඇති මාතෘ/ළදරු සායන මධ්‍යස්ථානයට ලඟා වීමට ගතවන කාලය (විනාඩි)කොපමණ ද?<p></p>
+            
+  - name: HIES2022_DICT.S72Q1
+    conditions:
+      - questionText:
+          EN: |
+            Is there a main eletricity grid nearby&nbsp; your house to&nbsp; obtain&nbsp; electricity easily?<p></p>
+            
+          SI: |
+            ඔබ නිවසට විදුලි බලය ලබා ගත හැකි ප්‍රධාන විදුලි රැහැන් පහසුවෙන් ලබාගත හැකි දුරක තිබේද ?<p></p>
+            
+  - name: HIES2022_DICT.S72Q11
+    conditions:
+      - questionText:
+          EN: |
+            Is there a main eletricity grid nearby&nbsp; your house to&nbsp; obtain&nbsp; electricity easily?<p></p>
+            
+          SI: |
+            ඔබ නිවසට විදුලි බලය ලබා ගත හැකි ප්‍රධාන විදුලි රැහැන් පහසුවෙන් ලබාගත හැකි දුරක තිබේද ?<p></p>
+            
+  - name: HIES2022_DICT.S72Q2
+    conditions:
+      - questionText:
+          EN: |
+            Have you been able to access to the telephone facilities from your house ?<p></p>
+            
+          SI: |
+            ඔබ නිවසට දුරකථන පහසුකම් ලබා ගත හැකි ක්‍රමයක් තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S72Q21
+    conditions:
+      - questionText:
+          EN: |
+            Have you been able to access to the telephone facilities from your house ?<p></p>
+            
+          SI: |
+            ඔබ නිවසට දුරකථන පහසුකම් ලබා ගත හැකි ක්‍රමයක් තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S72Q3
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;Is there a water supply line nearby&nbsp; your house to&nbsp; obtain&nbsp; pipe born water?<p></p>
+            
+          SI: |
+            ඔබ නිවසට ජලය ලබා ගත හැකි ජලනල මාර්ග, පහසුවෙන් ලබාගත හැකි දුරක තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S72Q31
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;Is there a water supply line nearby&nbsp; your house to&nbsp; obtain&nbsp; pipe born water?<p></p>
+            
+          SI: |
+            ඔබ නිවසට ජලය ලබා ගත හැකි ජලනල මාර්ග, පහසුවෙන් ලබාගත හැකි දුරක තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.S8Q1
+    conditions:
+      - questionText:
+          EN: |
+            <p>What's the type of structure of your house ?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඔබගේ නිවාස ඒකකයේ ස්වභාවය කුමක්ද?&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S8Q10
+    conditions:
+      - questionText:
+          EN: |
+            <p>What's the principle type of cooking fuel?</p><p></p>
+            
+          SI: |
+            <p></p><div>ආහාර පිසීමට ගන්නා ප්‍රධාන ඉන්ධන ප්‍රභවය ?<br></div>
+            
+  - name: HIES2022_DICT.S8Q11A
+    conditions:
+      - questionText:
+          EN: |
+            <p>Did anyone of the household members collect fire wood during&nbsp; last month for their use?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසය තුල ගෘහ ඒකකයේ ප්‍රයෝජනය සඳහා සාමාජිකයෙකු විසින් දර ඒකතු කරනු ලැබුවේද?<br></div>
+            
+  - name: HIES2022_DICT.S8Q11B1
+    conditions:
+      - questionText:
+          EN: |
+            <p>From where did you collect firewood in last month?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාසයේදී දර ඒකතු කරනු ලැබූ ස්ථානය ?<br></div>
+            
+  - name: HIES2022_DICT.S8Q11B2
+    conditions:
+      - questionText:
+          EN: |
+            <p>Distance to the place of collecting firewood (meter)?</p><p></p>
+            
+          SI: |
+            <p></p><div>දර ඒකතු කිරීම සඳහා ගිය ස්ථානයට දුර (මීටර්)?<br></div>
+            
+  - name: HIES2022_DICT.S8Q12A
+    conditions:
+      - questionText:
+          EN: |
+            <p>Has this housing unit/members of this household been affected by any natural disaster at the same place&nbsp; during last 12 months?</p><p></p>
+            
+          SI: |
+            <p></p><div>පසුගිය මාස 12 තුළ දී මෙම නිවාස ඒකකයට / සාමාජිකයින්ට මෙම නිවස පිහිටි ස්ථානයේදී යම්කිසි ස්වභාවික විපතකට / ව්‍යවසනයකට මුහුණපෑමට සිදුවුණිද?<br></div>
+            
+  - name: HIES2022_DICT.S8Q12B
+    conditions:
+      - questionText:
+          EN: |
+            <p>What's nature of the disaster?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඒම ව්‍යවසනයේ ස්වභාවය කුමක්ද?<br></div>
+            
+  - name: HIES2022_DICT.S8Q2
+    conditions:
+      - questionText:
+          EN: |
+            <p>How many bed rooms are there in your house only for sleep?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඔබගේ නිවසේ නිදා ගැනීමට පමණක් වෙන්වූ කාමර ගණන කියද ?<br></div>
+            
+  - name: HIES2022_DICT.S8Q3
+    conditions:
+      - questionText:
+          EN: |
+            <p>Total floor area (Sq. feet)</p><p></p>
+            
+          SI: |
+            <p></p><div>ගෙබිම වර්ගඵලය (වර්ග අඩි වලින්)<br></div>
+            
+  - name: HIES2022_DICT.S8Q4A
+    conditions:
+      - questionText:
+          EN: |
+            <p>What type of principle material used to construct the&nbsp; walls of the house?</p><p></p>
+            
+          SI: |
+            <p></p><div>නිවසේ බිත්ති ඉඳිකිරීම සඳහා යොදාගත් ප්‍රධාන ද්‍රව්‍ය&nbsp;<br></div>
+            
+  - name: HIES2022_DICT.S8Q4B
+    conditions:
+      - questionText:
+          EN: |
+            <p>What type of principle flooring material is used ?</p><p></p>
+            
+          SI: |
+            <p></p><div>නිවසේ ගෙබිම සඳහා යොදාගත් ප්‍රධාන ද්‍රව්‍ය<br></div>
+            
+  - name: HIES2022_DICT.S8Q4C
+    conditions:
+      - questionText:
+          EN: |
+            <p>What type of principle material used to construct the&nbsp; roof of the house?</p><p></p>
+            
+          SI: |
+            <p></p><div>නිවසේ වහළය සඳහා යොදාගත් ප්‍රධාන ද්‍රව්‍ය<br></div>
+            
+  - name: HIES2022_DICT.S8Q5
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the type of tenure?</p><p></p>
+            
+          SI: |
+            <p></p><div>නිවසේ භුක්තියේ ස්වභාවය<br></div>
+            
+  - name: HIES2022_DICT.S8Q6A
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the main source of drinking water?</p><p></p>
+            
+          SI: |
+            <p>බීමට ජලය ලබා ගන්නා වූ ප්‍රධාන මාර්ගය කුමක්ද<br></p><p></p>
+            
+  - name: HIES2022_DICT.S8Q6B
+    conditions:
+      - questionText:
+          EN: |
+            <p>How long does it take to go and come back to collect water from&nbsp; the source of drinking water (minutes)?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඒම ජල මූලාශ්‍රය කරා ගොස් බීමට ජලය රැගෙන යලි පැමීණීමට ගතවන කාලය කොපමණද (විනාඩි)<br></div>
+            
+  - name: HIES2022_DICT.S8Q6B1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Location of the drinking water source</p><p></p>
+            
+          SI: |
+            <p></p><div>බීමට ජලය ලබා ගන්නා ස්ථානය පිහිටියේ<br></div>
+            
+  - name: HIES2022_DICT.S8Q6B2
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the distance to go and come back to the source of drinking water(meter)?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඒම ජල මූලාශ්‍රය කරා ගොස් බීමට ජලය රැගෙන යලි පැමීණීමට යන සම්පූර් ණ දුර කොපමණද (මීටර්)?<br></div>
+            
+  - name: HIES2022_DICT.S8Q6C
+    conditions:
+      - questionText:
+          EN: |
+            <p>What do you usually do to make water safe for drinking ?</p><p></p>
+            
+          SI: |
+            <p>ඒම ජලය බීමට සුදුසු තත්වයට පත්කර ගැනීමට ඔබ සාමාන්‍යයෙන් කරන්නේ කුමක්ද<br></p><p></p>
+            
+  - name: HIES2022_DICT.S8Q6D
+    conditions:
+      - questionText:
+          EN: |
+            <p>Was there any time that you did't have&nbsp; enough water to drink, bath &amp; wash during last month ?</p><p></p>
+            
+          SI: |
+            <p>පසුගිය මාසය තුල ඔබගේ නිවසේ බීමට ජලය ප්‍රමාණවත්ව නොපැවති අවස්ථා තිබුනේද<br></p><p></p>
+            
+  - name: HIES2022_DICT.S8Q6E1
+    conditions:
+      - questionText:
+          EN: |
+            <p>How meny months did you have enough water to drink/ cook, during last year ?</p><p></p>
+            
+          SI: |
+            <p>පසුගිය වසර තුලදී ඔබගේ නිවසේ බීමට / ආහාර පිසීමට ප්‍රමාණවත් ලෙස ජලය තිබූ මාස ගණන කීයද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.S8Q6E2
+    conditions:
+      - questionText:
+          EN: |
+            <p>How meny months did you have enough water to bath &amp; wash, during last year ?</p><p></p>
+            
+          SI: |
+            <p>පසුගිය වසර තුලදී ඔබගේ නිවසේ නෑමට / සේදීමට ප්‍රමාණවත් ලෙස ජලය තිබූ මාස ගණන කීයද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.S8Q7A
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the type of toilet facilities?</p><p></p>
+            
+          SI: |
+            <p></p><div>වැසිකිලි පහසුකම&nbsp; කුමන ආකාරයේද?<br></div>
+            
+  - name: HIES2022_DICT.S8Q7B
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the type of toilet?</p><p></p>
+            
+          SI: |
+            <p></p><div>වැසිකිලි වල ස්වභාවය ?<br></div>
+            
+  - name: HIES2022_DICT.S8Q7C1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Do you&nbsp; use gully bowser ?</p><p></p>
+            
+          SI: |
+            <p></p><div>ගලි බවුසර සේවය ලබා ගන්නවාද ?<br></div>
+            
+  - name: HIES2022_DICT.S8Q7C21
+    conditions:
+      - questionText:
+          EN: |
+            <p>Do you have a place to&nbsp; wash your hands after using&nbsp; the toilet ?</p><p></p>
+            
+          SI: |
+            <p>වැසිකිලි යාමෙන් පසු අත් සේදීමට පහසු ස්ථානයක් තිබෙනවද?<br></p><p></p>
+            
+  - name: HIES2022_DICT.S8Q7C22
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is there water to wash hands after using the toilet?</p><p></p>
+            
+          SI: |
+            <p></p><div>වැසිකිලි යාමෙන් පසු අත් සේදීමට ජලය තිබෙනවද?<br></div>
+            
+  - name: HIES2022_DICT.S8Q7C23
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is soap avialable to wash hand after using the toilet?</p><p></p>
+            
+          SI: |
+            <p></p><div>වැසිකිලි යාමෙන් පසු අත් සේදීමට සබන් තිබෙනවද?<br></div>
+            
+  - name: HIES2022_DICT.S8Q8
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the principle method of disposing of garbage?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඝන අපද්‍රව්‍ය බැහැර කරන ප්‍රධාන මාර් ගය කුමක්ද?<br></div>
+            
+  - name: HIES2022_DICT.S8Q9
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is principle source of lighting?</p><p></p>
+            
+          SI: |
+            <p></p><div>ආලෝකය ලබාගන්නා ප්‍රධාන මාර් ගය කුමක්ද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q0
+    conditions:
+      - questionText:
+          EN: |
+            <p>Are there any member/members (excluding borders &amp; servants) of this household&nbsp; own any land including&nbsp; occupied housing units or agricultural land / lands (Currently cultivating / available to cultivation)&nbsp; by himself/herself/themself or with partnership with&nbsp; any external member/members ?</p><p></p>
+            
+          SI: |
+            <p></p><div>මෙම ගෘහ ඒකකයේ සාමාජිකයකුට / සාමාජිකයින්ට අයත් හෝ වෙනත් අයෙකු සමඟ එක්ව හවුලේ භාවිතා කරන නිවස පිහිටි ඉඩම&nbsp; හෝ වගා කරන&nbsp; හෝ වගා කලහැකි&nbsp; ඉඩම /ඉඩමක් තිබේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q1
+    conditions:
+      - questionText:
+          EN: |
+            
+          SI: |
+            
+  - name: HIES2022_DICT.S91Q10
+    conditions:
+      - questionText:
+          EN: |
+            <p>Does that document contain a member's name in the household?</p><p></p>
+            
+          SI: |
+            <p></p><div>අදාල ලියවිල්ල තුල ගෘහ කාණ්ඩයේ සාමාජිකයකුගේ නම ඇතුලත්වී තිබේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q11
+    conditions:
+      - questionText:
+          EN: |
+            <p>Have the right to delegate&nbsp; to someone else?</p><p></p>
+            
+          SI: |
+            <p></p><div>වෙනත් අයෙකුට පැවරීමට හැකියාවක් තිබේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q12
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is there any possibility to sell the land?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඉඩම විකිණීමට හැකියාවක් තිබේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q13
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is there a possibility of losing ownership / right to use this land within the next five years?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඉදිරි වසර 5 ඇතුලත මෙම ඉඩම සඳහා ඇති හිමිකම හෝ පාවිච්චි කිරීමේ අයිතිය අහිමි වීමේ ඉඩක් පවතීද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q2
+    conditions:
+      - questionText:
+          EN: |
+            Select all person names who belongs that land.<p></p>
+            
+          SI: |
+            ඉඩම අයත් පුද්ගලයන් සියළු දෙනාගේ නම් තෝරන්න.<p></p>
+            
+  - name: HIES2022_DICT.S91Q21
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is there any other land?</p><p></p>
+            
+          SI: |
+            <p></p><div>වෙනත් ඉඩම් තිබේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q3
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the type of tenure?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඉඩම් අයිතියෙහි ස්වභාවය කුමක්ද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q4
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is&nbsp; the amount of land area?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඉඩම් ප්‍රමාණය (පර්චස්) කොපමණද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q5
+    conditions:
+      - questionText:
+          EN: |
+            <p>How did &lt;..&gt; aquire this land?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඉඩම ලැබුණු ආකාරය කෙසේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q6
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the type of the land?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඉඩම් වර්ගය කුමක්ද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q7
+    conditions:
+      - questionText:
+          EN: |
+            <p>How does &lt;&gt; currently&nbsp; use&nbsp; this land?</p><p></p>
+            
+          SI: |
+            <p></p><div>වර්තමානයේ මෙම ඉඩම භාවිතා කරන ආකාරය කෙසේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q8
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is there any legal document for the land?</p><p></p>
+            
+          SI: |
+            <p></p><div>ඉඩම සඳහා කිසියම් නීත්‍යානුකූල ලේඛනයක් තිබේද?<br></div>
+            
+  - name: HIES2022_DICT.S91Q9
+    conditions:
+      - questionText:
+          EN: |
+            <p>What is the type of relevant legal document?</p><p></p>
+            
+          SI: |
+            <p></p><div>අදාල නීත්‍යානුකූල ලියවිල්ලේ ස්වභාවය කුමක්ද?<br></div>
+            
+  - name: HIES2022_DICT.S92Q1
+    conditions:
+      - questionText:
+          EN: |
+            <p>Is there own livestock?</p><p></p>
+            
+          SI: |
+            <p></p><div>නිවසේ සාමාජිකයින් සත්ව පාලනය කරනවාද?<br></div>
+            
+  - name: HIES2022_DICT.S92Q1A
+    conditions:
+      - questionText:
+          EN: |
+            
+          SI: |
+            
+  - name: HIES2022_DICT.S92_LQTY
+    conditions:
+      - questionText:
+          EN: |
+            &nbsp;Number of livestock ~~getCapiQ1(S92_LCODE)~~<br><p></p>
+            
+          SI: |
+            &nbsp; ~~getCapiQ1(S92_LCODE)~~&nbsp;:සතුන් ගණන<p></p>
+            
+  - name: HIES2022_DICT.S9B
+    conditions:
+      - questionText:
+          EN: |
+            Is there own livestock?<p></p>
+            
+          SI: |
+            නිවසේ සාමාජිකයින් සත්ව පාලනය කරනවාද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.SECTOR
+    conditions:
+      - questionText:
+          EN: |
+            Sector<p></p>
+            
+          SI: |
+            අංශය<p></p>
+            
+  - name: HIES2022_DICT.SSU
+    conditions:
+      - questionText:
+          EN: |
+            Secondary Sampling Unit (SSU )Number<p></p>
+            
+          SI: |
+            ද්විතියික නියැදි ඒකක අංකය<p></p>
+            
+  - name: HIES2022_DICT.S_MONTH
+    conditions:
+      - questionText:
+          EN: |
+            Survey Month<p></p>
+            
+          SI: |
+            සමීක්ෂණ මාසය<p></p>
+            
+  - name: HIES2022_DICT.V421
+    conditions:
+      - questionText:
+          EN: |
+            ~~getlabel(C421_VS1, C421)~~<p></p>
+            
+...

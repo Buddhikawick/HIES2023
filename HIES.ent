@@ -1,0 +1,24 @@
+﻿[CSPro Application]
+Version=CSPro 7.6
+Label=HIES
+Name=HIES
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\HIES.ent.apc
+[Message]
+File=.\HIES.ent.mgf
+[Help]
+File=.\HIES.ent.qsf
+[Forms]
+File=.\HIES.fmf
+[Dictionary Types]
+Dict-Type=.\HIES2022DD.dcf,Input,.\HIES.fmf

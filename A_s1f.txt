@@ -1,0 +1,8 @@
+﻿          Household Members List
+          ======================
+  
+Ser-No  Name                     Age   Sex   Relationship
+......  .....................    ...   ...   ............
+   1    p1                        46    Male     Head Of The Household
+   2    c1                        12    Male     Son / Daughter 
+   3    c2                        10    Female     Son / Daughter 
