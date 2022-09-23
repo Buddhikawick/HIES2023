@@ -43,14 +43,140 @@ questions:
       - questionText:
           EN: |
             
+  - name: HIES2022_DICT.CM10_A1
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ owned Children’s books?&nbsp;<p></p>
+            
+          SI: |
+            භාවිතය සඳහා ~~getvaluelabel(S1Q2(curocc()))~~ට ළමා පොත්&nbsp; තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.CM10_A2
+    conditions:
+      - questionText:
+          EN: |
+            Children’s books/ picture books/ children paper Count?&nbsp;<p></p>
+            
+          SI: |
+            ළමා පොත් ගණන?<p></p>
+            
+  - name: HIES2022_DICT.CM10_B1
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ owned picture books?&nbsp;<p></p>
+            
+          SI: |
+            භාවිතය සඳහා ~~getvaluelabel(S1Q2(curocc()))~~ට පින්තූර පොත්&nbsp; තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.CM10_B2
+    conditions:
+      - questionText:
+          EN: |
+            Picture books Count?&nbsp;<p></p>
+            
+          SI: |
+            පින්තූර පොත් ගණන?<p></p>
+            
+  - name: HIES2022_DICT.CM10_C1
+    conditions:
+      - questionText:
+          EN: |
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ owned children paper?&nbsp;<p></p>
+            
+          SI: |
+            භාවිතය සඳහා ~~getvaluelabel(S1Q2(curocc()))~~ට ළමා පත්තර&nbsp; තිබේද?<p></p>
+            
+  - name: HIES2022_DICT.CM10_C2
+    conditions:
+      - questionText:
+          EN: |
+            Children paper Count?&nbsp;<p></p>
+            
+          SI: |
+            ළමා පත්තර ගණන?<p></p>
+            
+  - name: HIES2022_DICT.CM11_A
+    conditions:
+      - questionText:
+          EN: |
+            Homemade toys, such as dolls, cars or other toys made at home?<p></p>
+            
+          SI: |
+            ~~getvaluelabel(S1Q2(curocc()))~~ නිවසේ සිටින විට සෙල්ලම් කරන දේවල් ගැන දැන ගැනීමට අවශ්‍යයි. නිවසේ සෑදූ සෙල්ලම් බඩු (බෝනික්කන්, කාර් හෝ වෙනත් යමක්)?<p></p>
+            
+  - name: HIES2022_DICT.CM11_B
+    conditions:
+      - questionText:
+          EN: |
+            Toys from a shop or manufactured toys?<p></p>
+            
+          SI: |
+            නිෂ්පාදිත සෙල්ලම් බඩු / සාප්පුවෙන් මිලදීගත් සෙල්ලම් බඩු?<p></p>
+            
+  - name: HIES2022_DICT.CM11_C
+    conditions:
+      - questionText:
+          EN: |
+            House hold objects , such as bowls or pot, or objects found outside , such as sticks, stones, animal shells or leaves?<p></p>
+            
+          SI: |
+            ගෙදර භාවිතා කරන බඩු (හට්ටි, හැඳි, කෝප්ප) හෝ වෙනත් වත්තේ ඇති ද්‍රව්‍ය (කෝටු, ගල්, සිප්පි කටු, කොළ, මැටි, වැලි)?<p></p>
+            
+  - name: HIES2022_DICT.CM11_D
+    conditions:
+      - questionText:
+          EN: |
+            Digital devices such as Tablets or smart phones?<p></p>
+            
+          SI: |
+            ටැබ්ලට් හෝ ස්මාර්ට් දුරකථන වැනි ඩිජිටල් උපාංග)?<p></p>
+            
+  - name: HIES2022_DICT.CM12
+    conditions:
+      - questionText:
+          EN: |
+            In the past 3 days, did you or any household member (15 or older) engage in any of the following activities with ~~S1Q2~~ ?<p></p>
+            
+          SI: |
+            පසුගිය දින 3 තුල, ඔබ හෝ මෙම ගෘහ ඒකකයේ සාමාන්‍ය පදිංචිව සිටින වයස අවුරුදු 15 හෝ ඊට වැඩි වෙනත් සාමාජිකයෙක්&nbsp; ~~S1Q2~~&nbsp; සමග පහත සඳහන් කිසියම් කටයුත්තක නිරත වුනාද?<p></p>
+            
+  - name: HIES2022_DICT.CM13
+    conditions:
+      - questionText:
+          EN: |
+            In the past week, has ~~getvaluelabel(S1Q2(curocc()))~~ been left alone or in the care of another child younger than 10 years of age for more than one hour?&nbsp;<p></p>
+            
+          SI: |
+            පසුගිය සතිය තුල, ~~getvaluelabel(S1Q2(curocc()))~~ තනිව හෝ වයස අවුරුදු 10 ට අඩු වෙනත් දරුවෙකුගේ රැකවරණය යටතේ පැයකට වැඩි කාලයක් ගත කළේද?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.CM13_A
+    conditions:
+      - questionText:
+          EN: |
+            Number of days left alone for more than one hour?<p></p>
+            
+          SI: |
+            පැයකට වැඩි කාලයක් තනිව ගත කල දවස් ගණන<p></p>
+            
+  - name: HIES2022_DICT.CM13_B
+    conditions:
+      - questionText:
+          EN: |
+            Number of days left with another child (ageless than 10 years) for more than one hour?<p></p>
+            
+          SI: |
+            පැයකට වැඩි කාලයක් අවුරුදු 10 ට අඩු වෙනත් දරුවෙකු යටතේ ගත කල දවස් ගණන ?<p></p>
+            
   - name: HIES2022_DICT.CM15_A
     conditions:
       - questionText:
           EN: |
-            Are there any serious problems with the school ~~getvaluelabel(S2Q1(curocc()))~~ attends?<p></p>
+            Are there any serious problems with the school ~~getvaluelabel(S1Q2(curocc()))~~ attends?<p></p>
             
           SI: |
-            &nbsp;~~getvaluelabel(S2Q1(curocc()))~~ට පාසල සම්බන්ධව පහත සඳහන් ගැටළු තිබේද?<p></p>
+            &nbsp;~~getvaluelabel(S1Q2(curocc()))~~ට පාසල සම්බන්ධව පහත සඳහන් ගැටළු තිබේද?<p></p>
             
   - name: HIES2022_DICT.CM17
     conditions:
@@ -97,41 +223,77 @@ questions:
           SI: |
             ඔහු පිටත සිටින්නේ ඇයි?&nbsp;<p></p>
             
+  - name: HIES2022_DICT.CM2
+    conditions:
+      - questionText:
+          EN: |
+            ~~getvaluelabel(S1Q2(curocc()))~~ Child weight (in kilograms)?<p></p>
+            
+          SI: |
+            ~~getvaluelabel(S1Q2(curocc()))~~ දරුවාගේ බර (කිලෝ ග්‍රෑම් වලින්)?&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.CM3
+    conditions:
+      - questionText:
+          EN: |
+            Date of the weight measurement (YY/MM/DD)?<p></p>
+            
+          SI: |
+            බර මනින ලද දිනය(YY/MM/DD)?<p></p>
+            
+  - name: HIES2022_DICT.CM4
+    conditions:
+      - questionText:
+          EN: |
+            ~~getvaluelabel(S1Q2(curocc()))~~ Child height (in centimeters)?<p></p>
+            
+          SI: |
+            ~~getvaluelabel(S1Q2(curocc()))~~ දරුවාගේ උස (සෙන්ටි මීටර් වලින්)?<p></p>
+            
+  - name: HIES2022_DICT.CM5
+    conditions:
+      - questionText:
+          EN: |
+            Date of the height measurement (YY/MM/DD)?<p></p>
+            
+          SI: |
+            උස මනින ලද දිනය(YY/MM/DD)?<p></p>
+            
   - name: HIES2022_DICT.CM6
     conditions:
       - questionText:
           EN: |
-            Has ~~S1Q2~~ taken any drug for intestinal worms during the last 6 months?<p></p>
+            Has ~~getvaluelabel(S1Q2(curocc()))~~ taken any drug for intestinal worms during the last 6 months?<p></p>
             
           SI: |
-            ~~S1Q2~~ පසුගිය මාස 6 තුල පණුවන් සඳහා කුමන හෝ ‍‍‍‍‍‍ඖෂධයක්(පණු බෙහෙත්) ලබාගෙන තිබෙනවාද ?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය මාස 6 තුල පණුවන් සඳහා කුමන හෝ ‍‍‍‍‍‍ඖෂධයක්(පණු බෙහෙත්) ලබාගෙන තිබෙනවාද ?<p></p>
             
   - name: HIES2022_DICT.CM7
     conditions:
       - questionText:
           EN: |
-            Has ~~S1Q2~~ had diarrhea during last 2 weeks?<p></p>
+            Has ~~getvaluelabel(S1Q2(curocc()))~~ had diarrhea during last 2 weeks?<p></p>
             
           SI: |
-            ~~S1Q2~~ පසුගිය සති 2 තුල පාචන තත්ත්වයක් ඇතිවී තිබුණාද ?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය සති 2 තුල පාචන තත්ත්වයක් ඇතිවී තිබුණාද ?<p></p>
             
   - name: HIES2022_DICT.CM8
     conditions:
       - questionText:
           EN: |
-            Has ~~S1Q2~~ had an illness with a cough at any time during last 2 weeks?<p></p>
+            Has ~~getvaluelabel(S1Q2(curocc()))~~ had an illness with a cough at any time during last 2 weeks?<p></p>
             
           SI: |
-            ~~S1Q2~~ පසුගිය සති 2 ඇතුලත ඕනෑම වෙලාවක කැස්ස සමඟ අසනීප තත්ත්වයක් තිබුණාද&nbsp; ?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය සති 2 ඇතුලත ඕනෑම වෙලාවක කැස්ස සමඟ අසනීප තත්ත්වයක් තිබුණාද&nbsp; ?<p></p>
             
   - name: HIES2022_DICT.CM9
     conditions:
       - questionText:
           EN: |
-            Has ~~S1Q2~~ been ill with a fever at any time during last 2 weeks? (Excluding time in last question CM7 and CM8)?<p></p>
+            Has ~~getvaluelabel(S1Q2(curocc()))~~ been ill with a fever at any time during last 2 weeks? (Excluding time in last question CM7 and CM8)?<p></p>
             
           SI: |
-            ~~S1Q2~~ පසුගිය සති 2 ඇතුලත ඉහත CM7, CM8 දී හැර වෙනත්&nbsp; ඕනෑම වේලාවක උණ සමඟ වූ අසනීප තත්ත්වයක් තිබුණාද&nbsp; &nbsp;?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය සති 2 ඇතුලත ඉහත CM7, CM8 දී හැර වෙනත්&nbsp; ඕනෑම වේලාවක උණ සමඟ වූ අසනීප තත්ත්වයක් තිබුණාද&nbsp; &nbsp;?<p></p>
             
   - name: HIES2022_DICT.DISTRICT
     conditions:
@@ -463,10 +625,10 @@ questions:
     conditions:
       - questionText:
           EN: |
-            Year of birth&nbsp; &nbsp;of ~~S1Q2~~?<p></p>
+            Year of birth&nbsp; &nbsp;of ~~S1Q2~~?(<span style="background-color: rgb(248, 249, 250); color: rgb(32, 33, 36); font-family: inherit; font-size: 16px; white-space: pre-wrap;">If you do not know the year of birth, enter 9999)</span><p></p>
             
           SI: |
-            ~~S1Q2~~ගේ උපන් වර්ෂය ?&nbsp;<p></p>
+            ~~S1Q2~~ගේ උපන් වර්ෂය ?&nbsp;(උපන් අවුරුද්ද නොදන්නේනම් 9999 යොදන්න)<p></p>
             
   - name: HIES2022_DICT.S1Q7
     conditions:
@@ -499,28 +661,28 @@ questions:
     conditions:
       - questionText:
           EN: |
-            Why did ~~getvaluelabel(S2Q1(curocc()))~~ never attend school<p></p>
+            Why did ~~getvaluelabel(S1Q2(curocc()))~~ never attend school<p></p>
             
           SI: |
-            ~~getvaluelabel(S2Q1(curocc()))~~ කිසිදා පාසල් නොගියේ ඇයි?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ කිසිදා පාසල් නොගියේ ඇයි?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S2Q11
     conditions:
       - questionText:
           EN: |
-            Why did ~~getvaluelabel(S2Q1(curocc()))~~ leave school&nbsp; ?<p></p>
+            Why did ~~getvaluelabel(S1Q2(curocc()))~~ leave school&nbsp; ?<p></p>
             
           SI: |
-            &nbsp;~~getvaluelabel(S2Q1(curocc()))~~ ඔබ පාසැල් ගොස් අතරමඟ නැවැත්වීමට ප්‍රධාන හේතුව කුමක්ද?<p></p>
+            &nbsp;~~getvaluelabel(S1Q2(curocc()))~~ ඔබ පාසැල් ගොස් අතරමඟ නැවැත්වීමට ප්‍රධාන හේතුව කුමක්ද?<p></p>
             
   - name: HIES2022_DICT.S2Q12
     conditions:
       - questionText:
           EN: |
-            Which year did ~~getvaluelabel(S2Q1(curocc()))~~ leave school ?<p></p>
+            Which year did ~~getvaluelabel(S1Q2(curocc()))~~ leave school ?<p></p>
             
           SI: |
-            ~~getvaluelabel(S2Q1(curocc()))~~ පාසල් යාම නතර කලේ කුමන අවුරුද්දේද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පාසල් යාම නතර කලේ කුමන අවුරුද්දේද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S2Q2
     conditions:
@@ -533,20 +695,20 @@ questions:
     conditions:
       - questionText:
           EN: |
-            <p>Is ~~getvaluelabel(S2Q1(curocc()))~~ School education ?</p><p></p><p></p>
+            <p>Is ~~getvaluelabel(S1Q2(curocc()))~~ School education ?</p><p></p><p></p>
             <p></p>
             
           SI: |
-            ~~getvaluelabel(S2Q1(curocc()))~~ගේ පාසල් අධ්‍යාපනය ?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ගේ පාසල් අධ්‍යාපනය ?<p></p>
             
   - name: HIES2022_DICT.S2Q4
     conditions:
       - questionText:
           EN: |
-            What is the type of school which ~~getvaluelabel(S2Q1(curocc()))~~ is attending ?<p></p>
+            What is the type of school which ~~getvaluelabel(S1Q2(curocc()))~~ is attending ?<p></p>
             
           SI: |
-            ~~getvaluelabel(S2Q1(curocc()))~~ යන පාසලේ ස්වභාවය කුමක්ද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ යන පාසලේ ස්වභාවය කුමක්ද?<p></p>
             
   - name: HIES2022_DICT.S2Q5
     conditions:
@@ -606,10 +768,10 @@ questions:
     conditions:
       - questionText:
           EN: |
-            Did ~~S1Q2~~ stay at a Private Hospital during the last 12 month as an inpatient ?<p></p>
+            Did ~~getvaluelabel(S1Q2(curocc()))~~ stay at a Private Hospital during the last 12 month as an inpatient ?<p></p>
             
           SI: |
-            &nbsp;~~S1Q2~~ පසුගිය මාස 12 තුල පෞද්ගලික රෝහලක නේවාසිකව ප්‍රතිකාර ලැබුවේද?<p></p>
+            &nbsp;~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය මාස 12 තුල පෞද්ගලික රෝහලක නේවාසිකව ප්‍රතිකාර ලැබුවේද?<p></p>
             
   - name: HIES2022_DICT.S3AQ12
     conditions:
@@ -624,73 +786,73 @@ questions:
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ suffer from Chronic illness?&nbsp;<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ suffer from Chronic illness?&nbsp;<p></p>
             
           SI: |
-            ~~S1Q2~~ කලක සිට යම්කිසි රෝගයකින් /රෝග&nbsp; වලින් පෙළෙන්නේද?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ කලක සිට යම්කිසි රෝගයකින් /රෝග&nbsp; වලින් පෙළෙන්නේද?<p></p>
             
   - name: HIES2022_DICT.S3AQ14
     conditions:
       - questionText:
           EN: |
-            What is the main chronic illness does ~~S1Q2~~ suffer from<p></p>
+            What is the main chronic illness does ~~getvaluelabel(S1Q2(curocc()))~~ suffer from<p></p>
             
           SI: |
-            ~~S1Q2~~ගේ එම ප්‍රධාන රෝගය කුමක්ද?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ගේ එම ප්‍රධාන රෝගය කුමක්ද?<p></p>
             
   - name: HIES2022_DICT.S3AQ15
     conditions:
       - questionText:
           EN: |
-            &nbsp;Is the job&nbsp; did to cause ~~S1Q2~~'s disease?<p></p>
+            &nbsp;Is the job&nbsp; did to cause ~~getvaluelabel(S1Q2(curocc()))~~'s disease?<p></p>
             
           SI: |
-            ~~S1Q2~~ගේ මෙම රෝග තත්ත්වය ඇතිවීමට හේතුවූයේ ඔහු /ඇය විසින් කරන ලද රැකියාවද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ගේ මෙම රෝග තත්ත්වය ඇතිවීමට හේතුවූයේ ඔහු /ඇය විසින් කරන ලද රැකියාවද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3AQ16MONTH
     conditions:
       - questionText:
           EN: |
-            How long has ~~S1Q2~~ been suffering from that illness ? Months<p></p>
+            How long has ~~getvaluelabel(S1Q2(curocc()))~~ been suffering from that illness ? Months<p></p>
             
           SI: |
-            ~~S1Q2~~ කොපමණ කාලයක සිට එම රෝගයෙන් පෙලෙන්නේද? මාස ගණන<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ කොපමණ කාලයක සිට එම රෝගයෙන් පෙලෙන්නේද? මාස ගණන<p></p>
             
   - name: HIES2022_DICT.S3AQ16YEAR
     conditions:
       - questionText:
           EN: |
-            How long has ~~S1Q2~~ been suffering from that illness ? Years<p></p>
+            How long has ~~getvaluelabel(S1Q2(curocc()))~~ been suffering from that illness ? Years<p></p>
             
           SI: |
-            ~~S1Q2~~ කොපමණ කාලයක සිට එම රෝගයෙන් පෙලෙන්නේද? වර්ෂ ගණන<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ කොපමණ කාලයක සිට එම රෝගයෙන් පෙලෙන්නේද? වර්ෂ ගණන<p></p>
             
   - name: HIES2022_DICT.S3AQ17
     conditions:
       - questionText:
           EN: |
-            Did ~~S1Q2~~ has to stop doing his/her usual&nbsp; activities / job because of this illness<p></p>
+            Did ~~getvaluelabel(S1Q2(curocc()))~~ has to stop doing his/her usual&nbsp; activities / job because of this illness<p></p>
             
           SI: |
-            ~~S1Q2~~ මෙම රෝග තත්ත්වය නිසා පසුගිය මාසය තුල සාමාන්‍ය&nbsp; කටයුතු වලින්/ රැකියා වලින් බැහැරව සිටියේද?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ මෙම රෝග තත්ත්වය නිසා පසුගිය මාසය තුල සාමාන්‍ය&nbsp; කටයුතු වලින්/ රැකියා වලින් බැහැරව සිටියේද?<p></p>
             
   - name: HIES2022_DICT.S3AQ18
     conditions:
       - questionText:
           EN: |
-            If so how many days did ~~S1Q2~~ stop his/her usual activities during last month<p></p>
+            If so how many days did ~~getvaluelabel(S1Q2(curocc()))~~ stop his/her usual activities during last month<p></p>
             
           SI: |
-            එසේ නම් පසුගිය මාසය තුල ~~S1Q2~~ සාමාන්‍ය වැඩ කටයුතු&nbsp; වලින්/ රෑකියා වලින් බැහැරව සිටි දින ගණන&nbsp;<p></p>
+            එසේ නම් පසුගිය මාසය තුල ~~getvaluelabel(S1Q2(curocc()))~~ සාමාන්‍ය වැඩ කටයුතු&nbsp; වලින්/ රෑකියා වලින් බැහැරව සිටි දින ගණන&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3AQ3
     conditions:
       - questionText:
           EN: |
-            Did ~~S1Q2~~ visit Government Hospital&nbsp; or Medical / Health Centre during the last month as outpatient ?<p></p>
+            Did ~~getvaluelabel(S1Q2(curocc()))~~ visit Government Hospital&nbsp; or Medical / Health Centre during the last month as outpatient ?<p></p>
             
           SI: |
-            ~~S1Q2~~ පසුගිය මාසය තුල බාහිර ප්‍රතිකාර සඳහා රජයේ&nbsp; රෝහලකට හෝ රජයේ වෛද්‍ය ආයතනයකට ගියේද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය මාසය තුල බාහිර ප්‍රතිකාර සඳහා රජයේ&nbsp; රෝහලකට හෝ රජයේ වෛද්‍ය ආයතනයකට ගියේද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3AQ4
     conditions:
@@ -714,10 +876,10 @@ questions:
     conditions:
       - questionText:
           EN: |
-            Did ~~S1Q2~~ visit Private Hospital or Medical / Health Centre during the last month as out patient ?<p></p>
+            Did ~~getvaluelabel(S1Q2(curocc()))~~ visit Private Hospital or Medical / Health Centre during the last month as out patient ?<p></p>
             
           SI: |
-            ~~S1Q2~~ පසුගිය මාසය තුල බාහිර ප්‍රතිකාර සඳහා පෞද්ගලික රෝහලකට හෝ පෞද්ගලික&nbsp; වෛද්‍ය&nbsp; ආයතනයකට ගියේද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය මාසය තුල බාහිර ප්‍රතිකාර සඳහා පෞද්ගලික රෝහලකට හෝ පෞද්ගලික&nbsp; වෛද්‍ය&nbsp; ආයතනයකට ගියේද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3AQ7
     conditions:
@@ -732,10 +894,10 @@ questions:
     conditions:
       - questionText:
           EN: |
-            Did ~~S1Q2~~ stay at a Government Hospital or Medical / Health Centre during the last 12 months as out patient ?<p></p>
+            Did ~~getvaluelabel(S1Q2(curocc()))~~ stay at a Government Hospital or Medical / Health Centre during the last 12 months as out patient ?<p></p>
             
           SI: |
-            ~~S1Q2~~ පසුගිය මාස 12 තුල රජයේ රෝහලක නේවාසිකව ප්‍රතිකාර ලැබුවේද?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ පසුගිය මාස 12 තුල රජයේ රෝහලක නේවාසිකව ප්‍රතිකාර ලැබුවේද?<p></p>
             
   - name: HIES2022_DICT.S3AQ9
     conditions:
@@ -757,82 +919,82 @@ questions:
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ has difficalty in remembering or make attention?<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ has difficalty in remembering or make attention?<p></p>
             
           SI: |
-            ~~S1Q2~~ට මතක තබා ගැනීමේ හෝ අවධානය යොමු කිරීමේ අපහසුතා තිබෙනවාද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ට මතක තබා ගැනීමේ හෝ අවධානය යොමු කිරීමේ අපහසුතා තිබෙනවාද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3BQ11
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ has difficalty with day today self-care, such as wearing, bathing and dressing?<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ has difficalty with day today self-care, such as wearing, bathing and dressing?<p></p>
             
           SI: |
-            ~~S1Q2~~ට ඇඳුම් ඇඳගැනීම හෝ ඇඟ සෝදා ගැනීම වැනි තමාගේ ඒදිනෙදා වැඩ කටයුතු තමාම කර ගැනීමේ අපහසුතා තිබෙනවාද?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ට ඇඳුම් ඇඳගැනීම හෝ ඇඟ සෝදා ගැනීම වැනි තමාගේ ඒදිනෙදා වැඩ කටයුතු තමාම කර ගැනීමේ අපහසුතා තිබෙනවාද?<p></p>
             
   - name: HIES2022_DICT.S3BQ12
     conditions:
       - questionText:
           EN: |
-            Has ~~S1Q2~~ got difficalty to communicate using usual language understanding or being understood due physical or mental disabilities?<p></p>
+            Has ~~getvaluelabel(S1Q2(curocc()))~~ got difficalty to communicate using usual language understanding or being understood due physical or mental disabilities?<p></p>
             
           SI: |
-            ~~S1Q2~~ට ශාරීරික හෝ මානසික හේතු නිසා තමා සාමාන්‍යයෙන් භාවිතා කරන භාෂාවෙන් අදහස් හුවමාරු කරගැනීමේ අපහසුතා තිබෙනවාද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ට ශාරීරික හෝ මානසික හේතු නිසා තමා සාමාන්‍යයෙන් භාවිතා කරන භාෂාවෙන් අදහස් හුවමාරු කරගැනීමේ අපහසුතා තිබෙනවාද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3BQ3
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ use spectacles or lenses ?<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ use spectacles or lenses ?<p></p>
             
           SI: |
-            ~~S1Q2~~ ඇස් කණ්නාඩි හෝ කාච භාවිතා කරනවාද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ ඇස් කණ්නාඩි හෝ කාච භාවිතා කරනවාද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3BQ4
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ have any defectives related to vision(if ~~S1Q2~~ is wearing spectacles or lenses even when he/she is wearing those) ?<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ have any defectives related to vision(if ~~getvaluelabel(S1Q2(curocc()))~~ is wearing spectacles or lenses even when he/she is wearing those) ?<p></p>
             
           SI: |
-            ~~S1Q2~~ට ඇස් කණ්නාඩි හෝ කාච පළඳියිනම් පැළඳ සිටියදී පවා පෙනීමේ අපහසුතාවයක් තිබේද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ට ඇස් කණ්නාඩි හෝ කාච පළඳියිනම් පැළඳ සිටියදී පවා පෙනීමේ අපහසුතාවයක් තිබේද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3BQ5
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ use hearing aids ?<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ use hearing aids ?<p></p>
             
           SI: |
-            ~~S1Q2~~ ශ්‍රවණාධාරයක් භාවිතා කරනවාද?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ ශ්‍රවණාධාරයක් භාවිතා කරනවාද?<p></p>
             
   - name: HIES2022_DICT.S3BQ6
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ have any difficulties to hear? if ~~S1Q2~~ is using hearing aids even when he/she is using those?<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ have any difficulties to hear? if ~~getvaluelabel(S1Q2(curocc()))~~ is using hearing aids even when he/she is using those?<p></p>
             
           SI: |
-            ~~S1Q2~~ට ඇසීමේ අපහසුතාවයක් තිබේද?(ශ්‍රවණාධාර භාවිත කරයිනම් ඒවිට පවා)&nbsp;&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ට ඇසීමේ අපහසුතාවයක් තිබේද?(ශ්‍රවණාධාර භාවිත කරයිනම් ඒවිට පවා)&nbsp;&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3BQ7
     conditions:
       - questionText:
           EN: |
-            Does ~~S1Q2~~ has difficalty to walk short distance or climb up or down 12 steps ?<p></p>
+            Does ~~getvaluelabel(S1Q2(curocc()))~~ has difficalty to walk short distance or climb up or down 12 steps ?<p></p>
             
           SI: |
-            ~~S1Q2~~ට කෙටි දුරක් ඇවිදීම හෝ පඩි 12ක් පමණ නැගීමට හෝ බැසීමට අපහසුතාවයක් තිබේද?<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ට කෙටි දුරක් ඇවිදීම හෝ පඩි 12ක් පමණ නැගීමට හෝ බැසීමට අපහසුතාවයක් තිබේද?<p></p>
             
   - name: HIES2022_DICT.S3BQ8
     conditions:
       - questionText:
           EN: |
-            If ~~S1Q2~~ has such difficalty, does he/she get help from any person or equipment ?<p></p>
+            If ~~getvaluelabel(S1Q2(curocc()))~~ has such difficalty, does he/she get help from any person or equipment ?<p></p>
             
           SI: |
-            ~~S1Q2~~ට ඒසේ අපහසුතාවයක් තිබේනම්, යම් උපකරණයක ආධාරය හෝ පුද්ගලයකුගෙන් උදව් ලබා ගන්නවාද?&nbsp;<p></p>
+            ~~getvaluelabel(S1Q2(curocc()))~~ට ඒසේ අපහසුතාවයක් තිබේනම්, යම් උපකරණයක ආධාරය හෝ පුද්ගලයකුගෙන් උදව් ලබා ගන්නවාද?&nbsp;<p></p>
             
   - name: HIES2022_DICT.S3BQ9
     conditions:
@@ -842,6 +1004,402 @@ questions:
             
           SI: |
             ඒසේනම් ඒය කුමක්ද?<p></p>
+            
+  - name: HIES2022_DICT.S3FQ201
+    conditions:
+      - questionText:
+          EN: |
+            Breast milk&nbsp;<p></p>
+            
+          SI: |
+            මව් කිරි&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ202
+    conditions:
+      - questionText:
+          EN: |
+            Infant formula (For age 0-1)<p></p>
+            
+          SI: |
+            ළදරු කිරි පිටි (වයස අවුරුදු 0-1 සඳහා)<p></p>
+            
+  - name: HIES2022_DICT.S3FQ203
+    conditions:
+      - questionText:
+          EN: |
+            Children formula<p></p>
+            
+          SI: |
+            ළමා කිරිපිටි&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ204
+    conditions:
+      - questionText:
+          EN: |
+            Fresh milk<p></p>
+            
+          SI: |
+            නැවුම් කිරි<p></p>
+            
+  - name: HIES2022_DICT.S3FQ205
+    conditions:
+      - questionText:
+          EN: |
+            Adult formula milk<p></p>
+            
+          SI: |
+            වැඩිහිටි කිරිපිටි<p></p>
+            
+  - name: HIES2022_DICT.S3FQ206
+    conditions:
+      - questionText:
+          EN: |
+            Tinned milk<p></p>
+            
+          SI: |
+            ටින් කිරි<p></p>
+            
+  - name: HIES2022_DICT.S3FQ207
+    conditions:
+      - questionText:
+          EN: |
+            Plain water<p></p>
+            
+          SI: |
+            පිරිසිඳු වතුර<p></p>
+            
+  - name: HIES2022_DICT.S3FQ208
+    conditions:
+      - questionText:
+          EN: |
+            Herbal decoction (Eg: Paspanguwa)<p></p>
+            
+          SI: |
+            ඖෂධ තැම්බූ වතුර (උදා: පස්පංගුව)<p></p>
+            
+  - name: HIES2022_DICT.S3FQ209
+    conditions:
+      - questionText:
+          EN: |
+            Sugar/ Glucose water<p></p>
+            
+          SI: |
+            සීනි හෝ ග්ලූකෝස් මිශ්‍ර වතුර<p></p>
+            
+  - name: HIES2022_DICT.S3FQ210
+    conditions:
+      - questionText:
+          EN: |
+            Soda / Cola drinks<p></p>
+            
+          SI: |
+            සෝඩා / කෝලා බීම<p></p>
+            
+  - name: HIES2022_DICT.S3FQ211
+    conditions:
+      - questionText:
+          EN: |
+            ORS liquids like jeewani<p></p>
+            
+          SI: |
+            පාචනයට ලබාදෙන ජීවනී වැනි දියර වර්ග<p></p>
+            
+  - name: HIES2022_DICT.S3FQ212
+    conditions:
+      - questionText:
+          EN: |
+            Vitamin<p></p>
+            
+          SI: |
+            විටමින්<p></p>
+            
+  - name: HIES2022_DICT.S3FQ213
+    conditions:
+      - questionText:
+          EN: |
+            Syrup with iron<p></p>
+            
+          SI: |
+            යකඩ අඩංගු සිරප්<p></p>
+            
+  - name: HIES2022_DICT.S3FQ214
+    conditions:
+      - questionText:
+          EN: |
+            Medicines<p></p>
+            
+          SI: |
+            ඖෂධ වර්ග<p></p>
+            
+  - name: HIES2022_DICT.S3FQ215
+    conditions:
+      - questionText:
+          EN: |
+            Soup<p></p>
+            
+          SI: |
+            සුප්<p></p>
+            
+  - name: HIES2022_DICT.S3FQ216
+    conditions:
+      - questionText:
+          EN: |
+            Gruel<p></p>
+            
+          SI: |
+            බත් කැඳ<p></p>
+            
+  - name: HIES2022_DICT.S3FQ217
+    conditions:
+      - questionText:
+          EN: |
+            Fruit juices<p></p>
+            
+          SI: |
+            පළතුරු යුෂ<p></p>
+            
+  - name: HIES2022_DICT.S3FQ218
+    conditions:
+      - questionText:
+          EN: |
+            Porridge<p></p>
+            
+          SI: |
+            තලප ස්වභාවයෙන් සකස් කළ බත්&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ219
+    conditions:
+      - questionText:
+          EN: |
+            Tea or Coffee<p></p>
+            
+          SI: |
+            තේ හෝ කෝපි<p></p>
+            
+  - name: HIES2022_DICT.S3FQ220
+    conditions:
+      - questionText:
+          EN: |
+            Thriposha<p></p>
+            
+          SI: |
+            ත්‍රීපෝෂ<p></p>
+            
+  - name: HIES2022_DICT.S3FQ221
+    conditions:
+      - questionText:
+          EN: |
+            Cereals (Nestom / Cereal /Thriposha)<p></p>
+            
+          SI: |
+            සීරියල් වර්ග (නෙස්ටම්, සෙරිලැක්, වැනි )&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ222
+    conditions:
+      - questionText:
+          EN: |
+            Cheese, Yoghurt, curd or other milk product<p></p>
+            
+          SI: |
+            චීස්, යෝගට්, මුදවපු කිරි හෝ වෙනත් කිරි නිෂ්පාදන<p></p>
+            
+  - name: HIES2022_DICT.S3FQ223
+    conditions:
+      - questionText:
+          EN: |
+            Ripe mangoes, Papayas, Passion fruits, or fruits those are yellow orange inside<p></p>
+            
+          SI: |
+            ඉඳුනු අඹ, පැපොල්, වැල් දොඩම් වැනි තැඹිලි පාට / කහපාට පළතුරු&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ224
+    conditions:
+      - questionText:
+          EN: |
+            Pumpkin, Carrots or vegetable that are yellow/orange inside<p></p>
+            
+          SI: |
+            වට්ටක්කා, කැරට් වැනි තැඹිලි පාට හෝ කහපාට එළවළු&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ225
+    conditions:
+      - questionText:
+          EN: |
+            Any dark green leafy vegetable<p></p>
+            
+          SI: |
+            කොළ වර්ග සහ කොළ පැහැති එළවළු<p></p>
+            
+  - name: HIES2022_DICT.S3FQ226
+    conditions:
+      - questionText:
+          EN: |
+            Other Fruits&nbsp;<p></p>
+            
+          SI: |
+            වෙනත් පලතුරු&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ227
+    conditions:
+      - questionText:
+          EN: |
+            Other Vegetables<p></p>
+            
+          SI: |
+            වෙනත් එළවළු<p></p>
+            
+  - name: HIES2022_DICT.S3FQ228
+    conditions:
+      - questionText:
+          EN: |
+            Rice, grain, bread, noodles or other food made from grain<p></p>
+            
+          SI: |
+            බත්, පාන්, නූඩ්ල්ස් හෝ පිටි වලින් සාදන ලද වෙනත් ආහාර&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ229
+    conditions:
+      - questionText:
+          EN: |
+            Potatoes ,manioc ,sweet potatoes, or any other yam made from root<p></p>
+            
+          SI: |
+            අර්තාපල්, මඤ්ඤොක්කා,&nbsp; බතල වැනි අල වර්ග&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ230
+    conditions:
+      - questionText:
+          EN: |
+            Beans, peas, green beans, gram, dhal, lentils or any foods made from these (like soya meat)&nbsp;<p></p>
+            
+          SI: |
+            බෝංචි, කවුපි, මුං ඇට, මෑ, කඩල,&nbsp; පරිප්පු, වැනි ඇට වර්ග හෝ ඇට වර්ග වලින් සාදන ලද වෙනත් ආහාර(සෝයා මීට් වැනි)<p></p>
+            
+  - name: HIES2022_DICT.S3FQ231
+    conditions:
+      - questionText:
+          EN: |
+            Any other nuts (like cashew nuts, pea nuts)<p></p>
+            
+          SI: |
+            වෙනත් ඇට වර්ග (කජු, රට කජු, තල, කොට්ටම්බා වැනි)<p></p>
+            
+  - name: HIES2022_DICT.S3FQ232
+    conditions:
+      - questionText:
+          EN: |
+            Liver<p></p>
+            
+          SI: |
+            පීකුඳු&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ233
+    conditions:
+      - questionText:
+          EN: |
+            Beef/ Pork/ Mutton<p></p>
+            
+          SI: |
+            හරක් මස්/ඌරු මස්/එළු මස්<p></p>
+            
+  - name: HIES2022_DICT.S3FQ234
+    conditions:
+      - questionText:
+          EN: |
+            Chicken<p></p>
+            
+          SI: |
+            කුකුළු මස්&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ235
+    conditions:
+      - questionText:
+          EN: |
+            Eggs<p></p>
+            
+          SI: |
+            බිත්තර&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ236
+    conditions:
+      - questionText:
+          EN: |
+            Fresh fish, prawns, crabs, cuttle fish ,other small fish, canned fish<p></p>
+            
+          SI: |
+            අලුත් මාළු, ඉස්සන්, කකුළුවන්, දැල්ලො, කුඩා මාළු ,ටින්&nbsp; මාළු<p></p>
+            
+  - name: HIES2022_DICT.S3FQ237
+    conditions:
+      - questionText:
+          EN: |
+            Dried fish, sprats etc.<p></p>
+            
+          SI: |
+            කරවල, වියළි හාල්මැස්සන්, කීරමින් ආදිය<p></p>
+            
+  - name: HIES2022_DICT.S3FQ238
+    conditions:
+      - questionText:
+          EN: |
+            Any food made with any oil, butter or fats<p></p>
+            
+          SI: |
+            බටර්, තෙල්, මාගරින් හෝ මේවා යොදා සාදන ලද ඕනෑම ආහාර වර්ගයක්&nbsp;<p></p>
+            
+  - name: HIES2022_DICT.S3FQ239
+    conditions:
+      - questionText:
+          EN: |
+            Bakery products such as rolls, pastries etc.<p></p>
+            
+          SI: |
+            රෝල්ස්, පේස්ට්‍රී වැනි තෙල් ඇති බේකරි නිෂ්පාදන<p></p>
+            
+  - name: HIES2022_DICT.S3FQ240
+    conditions:
+      - questionText:
+          EN: |
+            Processed meat/ fish products such as sausages, meat balls<p></p>
+            
+          SI: |
+            සකසන ලද මාංශමය ආහාර උදා: සොසේජස්, මීට් බෝල්ස් වැනි<p></p>
+            
+  - name: HIES2022_DICT.S3FQ241
+    conditions:
+      - questionText:
+          EN: |
+            Any sugary foods such as chocolates, toffees, cakes or buns<p></p>
+            
+          SI: |
+            චොක්ලට්, ටොෆි, කේක්, බනිස් වැනි පැණි රස කෑම වර්ග<p></p>
+            
+  - name: HIES2022_DICT.S3FQ242
+    conditions:
+      - questionText:
+          EN: |
+            Biscuit<p></p>
+            
+          SI: |
+            බිස්කට්<p></p>
+            
+  - name: HIES2022_DICT.S3FQ243
+    conditions:
+      - questionText:
+          EN: |
+            Snacks such as Tipi tip, Bites&nbsp;<p></p>
+            
+          SI: |
+            ටිපි ටිප්, බයිට් වැනි ආහාර වර්ග<p></p>
+            
+  - name: HIES2022_DICT.S3FQ244
+    conditions:
+      - questionText:
+          EN: |
+            Any other solid or semisolid foods<p></p>
+            
+          SI: |
+            වෙනත් ඝන හෝ අර්ධ ඝන ආහාර<p></p>
             
   - name: HIES2022_DICT.S43BQ10
     conditions:

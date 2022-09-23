@@ -1,48 +1,25 @@
-﻿Application     C:\Users\admin\Desktop\HIES2022\HIES2023\HIES2023-Ver1.03-20220902[Merge]\20220912 - HIES2022[share] - RNames\HIES.ent
+﻿Application     C:\Users\admin\Desktop\HIES2022\HIES2023\HIES2023_Ver 1.04-20220922\HIES.ent
 Type            Entry
-Date            Sep 16, 2022
-Time            14:19:24
+Date            Sep 23, 2022
+Time            07:05:32
 
 CSPro Error Summary
 
-WARNING(S1Q12, 230): S3AQ3 should have a subscript - you may get error messages when you run this application
-WARNING(S1Q12, 243): S3AQ3 should have a subscript - you may get error messages when you run this application
+WARNING(S1Q12, 325): S3AQ3 should have a subscript - you may get error messages when you run this application
+WARNING(S1Q12, 338): S3AQ3 should have a subscript - you may get error messages when you run this application
 
-WARNING(S2Q5, 401): S1Q13 should have a subscript - you may get error messages when you run this application
-WARNING(S2Q5, 401): S1Q13 should have a subscript - you may get error messages when you run this application
-WARNING(S2Q5, 406): S1Q13 should have a subscript - you may get error messages when you run this application
-WARNING(S2Q5, 412): S1Q13 should have a subscript - you may get error messages when you run this application
-WARNING(S2Q5, 412): S1Q13 should have a subscript - you may get error messages when you run this application
+WARNING(S2Q5, 497): S1Q13 should have a subscript - you may get error messages when you run this application
+WARNING(S2Q5, 497): S1Q13 should have a subscript - you may get error messages when you run this application
+WARNING(S2Q5, 502): S1Q13 should have a subscript - you may get error messages when you run this application
+WARNING(S2Q5, 508): S1Q13 should have a subscript - you may get error messages when you run this application
+WARNING(S2Q5, 508): S1Q13 should have a subscript - you may get error messages when you run this application
 
-WARNING(CM15_A, 431): S1Q7 should have a subscript - you may get error messages when you run this application
+WARNING(CM15_A, 527): S1Q7 should have a subscript - you may get error messages when you run this application
 
-WARNING(S3AQ16YEAR, 524): S1Q7 should have a subscript - you may get error messages when you run this application
+WARNING(S3AQ16YEAR, 642): S1Q7 should have a subscript - you may get error messages when you run this application
 
-WARNING(S3AQ18, 538): S1Q7 should have a subscript - you may get error messages when you run this application
+WARNING(S3AQ18, 656): S1Q7 should have a subscript - you may get error messages when you run this application
 
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
-WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
 WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
 WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application
 WARNING(CAPI Text, 1): S1Q2 should have a subscript - you may get error messages when you run this application

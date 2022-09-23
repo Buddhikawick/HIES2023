@@ -108,16 +108,6 @@ Item=SEC_3E_CHILD_FOOD000
 [EndForm]
   
 [Form]
-Name=FORM005
-Label=Section - 4.1 - Food expenditure
-Level=1
-Size=300,300
-  
-Item=SEC_4_1_FOOD_EXP000
-  
-[EndForm]
-  
-[Form]
 Name=FORM032
 Label=Section - 4.2 - Non Food
 Level=1
@@ -913,7 +903,7 @@ Text=Ethnicity
  
 [Field]
 Name=S1Q9
-Position=39,0,54,20
+Position=38,0,53,20
 Item=S1Q9,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -1865,28 +1855,11 @@ Name=S3AQ1
 Position=27,0,56,20
 Item=S3AQ1,HIES2022_DICT
 FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,152,16
 Text=Personal serial number
- 
-[EndColumn]
-  
-[Column]
-Width=709
-  
-[HeaderText]
-Position=645,128,709,168
-Text=Personal Name
- 
-[Field]
-Name=S3AQ2
-Position=0,0,701,20
-Item=S3AQ2,HIES2022_DICT
-FieldLabelType=DictionaryLabel
-UseUnicodeTextBox=Yes
-  
-[Text]
-Text=Personal Name
  
 [EndColumn]
   
@@ -2297,8 +2270,10 @@ Text=END_Sec3A
 Name=END_SEC3A
 Position=58,0,73,20
 Item=END_SEC3A,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,77,16
 Text=END_Sec3A
  
 [EndColumn]
@@ -2322,10 +2297,11 @@ Required=No
 Type=Record
 TypeName=SECTION_3B
 Max=30
-DisplaySize=40,30,1406,408
+DisplaySize=40,30,942,408
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
+UseOccurrenceLabels=Yes
 FreeMovement=No
  
 [Text]
@@ -2494,28 +2470,11 @@ Name=S3BQ1
 Position=27,0,56,20
 Item=S3BQ1,HIES2022_DICT
 FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,152,16
 Text=Personal serial number
- 
-[EndColumn]
-  
-[Column]
-Width=709
-  
-[HeaderText]
-Position=645,32,709,72
-Text=Personal Name
- 
-[Field]
-Name=S3BQ2
-Position=0,0,701,20
-Item=S3BQ2,HIES2022_DICT
-FieldLabelType=DictionaryLabel
-UseUnicodeTextBox=Yes
-  
-[Text]
-Text=Personal Name
  
 [EndColumn]
   
@@ -2720,8 +2679,10 @@ Text=END_Sec3B
 Name=END_SEC3B
 Position=58,0,73,20
 Item=END_SEC3B,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,79,16
 Text=END_Sec3B
  
 [EndColumn]
@@ -2745,7 +2706,7 @@ Required=No
 Type=Record
 TypeName=SEC_3C
 Max=5
-DisplaySize=68,67,1331,263
+DisplaySize=68,67,622,263
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
@@ -2791,26 +2752,11 @@ Text=Child serial Number
 Name=S3CQ1
 Position=35,0,50,20
 Item=S3CQ1,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,129,16
 Text=Child serial Number
- 
-[EndColumn]
-  
-[Column]
-Width=709
-  
-[HeaderText]
-Position=664,16,709,56
-Text=Child Name
- 
-[Field]
-Name=S3CQ2
-Position=0,0,701,20
-Item=S3CQ2,HIES2022_DICT
-  
-[Text]
-Text=Child Name
  
 [EndColumn]
   
@@ -2899,8 +2845,10 @@ Text=END_Sec3C
 Name=END_SEC3C
 Position=58,0,73,20
 Item=END_SEC3C,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,78,16
 Text=END_Sec3C
  
 [EndColumn]
@@ -2970,26 +2918,11 @@ Text=Child serial Number
 Name=S3DQ1
 Position=35,0,50,20
 Item=S3DQ1,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,129,16
 Text=Child serial Number
- 
-[EndColumn]
-  
-[Column]
-Width=709
-  
-[HeaderText]
-Position=664,112,709,152
-Text=Child Name
- 
-[Field]
-Name=S3DQ2
-Position=0,0,701,20
-Item=S3DQ2,HIES2022_DICT
-  
-[Text]
-Text=Child Name
  
 [EndColumn]
   
@@ -3075,6 +3008,24 @@ Item=CM10_C1,HIES2022_DICT
   
 [Text]
 Text=children paper
+ 
+[EndColumn]
+  
+[Column]
+Width=105
+  
+[HeaderText]
+Position=0,112,105,152
+Text=children paper amount
+ 
+[Field]
+Name=CM10_C2
+Position=68,0,97,20
+Item=CM10_C2,HIES2022_DICT
+FieldLabelType=DictionaryLabel
+  
+[Text]
+Text=children paper amount
  
 [EndColumn]
   
@@ -3225,8 +3176,10 @@ Text=END_Sec3D
 Name=END_SEC3D
 Position=58,0,73,20
 Item=END_SEC3D,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,79,16
 Text=END_Sec3D
  
 [EndColumn]
@@ -3250,7 +3203,7 @@ Required=No
 Type=Record
 TypeName=SECTION_3E_CHILD_CM16
 Max=5
-DisplaySize=199,124,1224,320
+DisplaySize=199,124,515,320
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
@@ -3296,26 +3249,11 @@ Text=Child serial Number
 Name=S3EQ1
 Position=35,0,50,20
 Item=S3EQ1,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,129,16
 Text=Child serial Number
- 
-[EndColumn]
-  
-[Column]
-Width=709
-  
-[HeaderText]
-Position=664,16,709,56
-Text=Child Name
- 
-[Field]
-Name=S3EQ2
-Position=0,0,701,20
-Item=S3EQ2,HIES2022_DICT
-  
-[Text]
-Text=Child Name
  
 [EndColumn]
   
@@ -3349,8 +3287,10 @@ Text=END_Sec3E
 Name=END_SEC3E
 Position=57,0,72,20
 Item=END_SEC3E,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,78,16
 Text=END_Sec3E
  
 [EndColumn]
@@ -3374,7 +3314,7 @@ Required=No
 Type=Record
 TypeName=SEC_3F_CHILD_FOOD
 Max=5
-DisplaySize=112,81,1140,511
+DisplaySize=112,81,1140,485
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
@@ -3423,23 +3363,6 @@ Item=S3FQ1,HIES2022_DICT
   
 [Text]
 Text=Child serial Number
- 
-[EndColumn]
-  
-[Column]
-Width=709
-  
-[HeaderText]
-Position=664,224,709,264
-Text=Child Name
- 
-[Field]
-Name=S3FQ2
-Position=0,0,701,20
-Item=S3FQ2,HIES2022_DICT
-  
-[Text]
-Text=Child Name
  
 [EndColumn]
   
@@ -4202,1593 +4125,11 @@ Text=END_Sec3E
 Name=END_SEC3F
 Position=57,0,72,20
 Item=END_SEC3F,HIES2022_DICT
+DataCaptureType=RadioButton
   
 [Text]
+Position=0,0,78,16
 Text=END_Sec3E
- 
-[EndColumn]
-  
-[EndGrid]
- 
-[EndGroup]
-  
-[Group]
-Required=No
-Name=SEC_4_1_FOOD_EXP_FORM
-Label=Section - 4.1 - Food expenditure
-Form=10
-Max=1
-  
-[Grid]
-Name=SEC_4_1_FOOD_EXP000
-Label=Section - 4.1 - Food expenditure
-Form=10
-Required=Yes
-Type=Record
-TypeName=SEC_4_1_FOOD_EXP
-Max=296
-DisplaySize=40,30,467,366
-Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
-FreeMovement=No
- 
-[Text]
-Position=14,4,29,28
-Text=1
- 
-  
-[Text]
-Position=14,4,29,28
-Text=2
- 
-  
-[Text]
-Position=14,4,29,28
-Text=3
- 
-  
-[Text]
-Position=14,4,29,28
-Text=4
- 
-  
-[Text]
-Position=14,4,29,28
-Text=5
- 
-  
-[Text]
-Position=14,4,29,28
-Text=6
- 
-  
-[Text]
-Position=14,4,29,28
-Text=7
- 
-  
-[Text]
-Position=14,4,29,28
-Text=8
- 
-  
-[Text]
-Position=14,4,29,28
-Text=9
- 
-  
-[Text]
-Position=7,4,29,28
-Text=10
- 
-  
-[Text]
-Position=8,4,29,28
-Text=11
- 
-  
-[Text]
-Position=7,4,29,28
-Text=12
- 
-  
-[Text]
-Position=7,4,29,28
-Text=13
- 
-  
-[Text]
-Position=7,4,29,28
-Text=14
- 
-  
-[Text]
-Position=7,4,29,28
-Text=15
- 
-  
-[Text]
-Position=7,4,29,28
-Text=16
- 
-  
-[Text]
-Position=7,4,29,28
-Text=17
- 
-  
-[Text]
-Position=7,4,29,28
-Text=18
- 
-  
-[Text]
-Position=7,4,29,28
-Text=19
- 
-  
-[Text]
-Position=7,4,29,28
-Text=20
- 
-  
-[Text]
-Position=7,4,29,28
-Text=21
- 
-  
-[Text]
-Position=7,4,29,28
-Text=22
- 
-  
-[Text]
-Position=7,4,29,28
-Text=23
- 
-  
-[Text]
-Position=7,4,29,28
-Text=24
- 
-  
-[Text]
-Position=7,4,29,28
-Text=25
- 
-  
-[Text]
-Position=7,4,29,28
-Text=26
- 
-  
-[Text]
-Position=7,4,29,28
-Text=27
- 
-  
-[Text]
-Position=7,4,29,28
-Text=28
- 
-  
-[Text]
-Position=7,4,29,28
-Text=29
- 
-  
-[Text]
-Position=7,4,29,28
-Text=30
- 
-  
-[Text]
-Position=7,4,29,28
-Text=31
- 
-  
-[Text]
-Position=7,4,29,28
-Text=32
- 
-  
-[Text]
-Position=7,4,29,28
-Text=33
- 
-  
-[Text]
-Position=7,4,29,28
-Text=34
- 
-  
-[Text]
-Position=7,4,29,28
-Text=35
- 
-  
-[Text]
-Position=7,4,29,28
-Text=36
- 
-  
-[Text]
-Position=7,4,29,28
-Text=37
- 
-  
-[Text]
-Position=7,4,29,28
-Text=38
- 
-  
-[Text]
-Position=7,4,29,28
-Text=39
- 
-  
-[Text]
-Position=7,4,29,28
-Text=40
- 
-  
-[Text]
-Position=7,4,29,28
-Text=41
- 
-  
-[Text]
-Position=7,4,29,28
-Text=42
- 
-  
-[Text]
-Position=7,4,29,28
-Text=43
- 
-  
-[Text]
-Position=7,4,29,28
-Text=44
- 
-  
-[Text]
-Position=7,4,29,28
-Text=45
- 
-  
-[Text]
-Position=7,4,29,28
-Text=46
- 
-  
-[Text]
-Position=7,4,29,28
-Text=47
- 
-  
-[Text]
-Position=7,4,29,28
-Text=48
- 
-  
-[Text]
-Position=7,4,29,28
-Text=49
- 
-  
-[Text]
-Position=7,4,29,28
-Text=50
- 
-  
-[Text]
-Position=7,4,29,28
-Text=51
- 
-  
-[Text]
-Position=7,4,29,28
-Text=52
- 
-  
-[Text]
-Position=7,4,29,28
-Text=53
- 
-  
-[Text]
-Position=7,4,29,28
-Text=54
- 
-  
-[Text]
-Position=7,4,29,28
-Text=55
- 
-  
-[Text]
-Position=7,4,29,28
-Text=56
- 
-  
-[Text]
-Position=7,4,29,28
-Text=57
- 
-  
-[Text]
-Position=7,4,29,28
-Text=58
- 
-  
-[Text]
-Position=7,4,29,28
-Text=59
- 
-  
-[Text]
-Position=7,4,29,28
-Text=60
- 
-  
-[Text]
-Position=7,4,29,28
-Text=61
- 
-  
-[Text]
-Position=7,4,29,28
-Text=62
- 
-  
-[Text]
-Position=7,4,29,28
-Text=63
- 
-  
-[Text]
-Position=7,4,29,28
-Text=64
- 
-  
-[Text]
-Position=7,4,29,28
-Text=65
- 
-  
-[Text]
-Position=7,4,29,28
-Text=66
- 
-  
-[Text]
-Position=7,4,29,28
-Text=67
- 
-  
-[Text]
-Position=7,4,29,28
-Text=68
- 
-  
-[Text]
-Position=7,4,29,28
-Text=69
- 
-  
-[Text]
-Position=7,4,29,28
-Text=70
- 
-  
-[Text]
-Position=7,4,29,28
-Text=71
- 
-  
-[Text]
-Position=7,4,29,28
-Text=72
- 
-  
-[Text]
-Position=7,4,29,28
-Text=73
- 
-  
-[Text]
-Position=7,4,29,28
-Text=74
- 
-  
-[Text]
-Position=7,4,29,28
-Text=75
- 
-  
-[Text]
-Position=7,4,29,28
-Text=76
- 
-  
-[Text]
-Position=7,4,29,28
-Text=77
- 
-  
-[Text]
-Position=7,4,29,28
-Text=78
- 
-  
-[Text]
-Position=7,4,29,28
-Text=79
- 
-  
-[Text]
-Position=7,4,29,28
-Text=80
- 
-  
-[Text]
-Position=7,4,29,28
-Text=81
- 
-  
-[Text]
-Position=7,4,29,28
-Text=82
- 
-  
-[Text]
-Position=7,4,29,28
-Text=83
- 
-  
-[Text]
-Position=7,4,29,28
-Text=84
- 
-  
-[Text]
-Position=7,4,29,28
-Text=85
- 
-  
-[Text]
-Position=7,4,29,28
-Text=86
- 
-  
-[Text]
-Position=7,4,29,28
-Text=87
- 
-  
-[Text]
-Position=7,4,29,28
-Text=88
- 
-  
-[Text]
-Position=7,4,29,28
-Text=89
- 
-  
-[Text]
-Position=7,4,29,28
-Text=90
- 
-  
-[Text]
-Position=7,4,29,28
-Text=91
- 
-  
-[Text]
-Position=7,4,29,28
-Text=92
- 
-  
-[Text]
-Position=7,4,29,28
-Text=93
- 
-  
-[Text]
-Position=7,4,29,28
-Text=94
- 
-  
-[Text]
-Position=7,4,29,28
-Text=95
- 
-  
-[Text]
-Position=7,4,29,28
-Text=96
- 
-  
-[Text]
-Position=7,4,29,28
-Text=97
- 
-  
-[Text]
-Position=7,4,29,28
-Text=98
- 
-  
-[Text]
-Position=7,4,29,28
-Text=99
- 
-  
-[Text]
-Position=0,4,29,28
-Text=100
- 
-  
-[Text]
-Position=0,4,29,28
-Text=101
- 
-  
-[Text]
-Position=0,4,29,28
-Text=102
- 
-  
-[Text]
-Position=0,4,29,28
-Text=103
- 
-  
-[Text]
-Position=0,4,29,28
-Text=104
- 
-  
-[Text]
-Position=0,4,29,28
-Text=105
- 
-  
-[Text]
-Position=0,4,29,28
-Text=106
- 
-  
-[Text]
-Position=0,4,29,28
-Text=107
- 
-  
-[Text]
-Position=0,4,29,28
-Text=108
- 
-  
-[Text]
-Position=0,4,29,28
-Text=109
- 
-  
-[Text]
-Position=1,4,29,28
-Text=110
- 
-  
-[Text]
-Position=2,4,29,28
-Text=111
- 
-  
-[Text]
-Position=1,4,29,28
-Text=112
- 
-  
-[Text]
-Position=1,4,29,28
-Text=113
- 
-  
-[Text]
-Position=1,4,29,28
-Text=114
- 
-  
-[Text]
-Position=1,4,29,28
-Text=115
- 
-  
-[Text]
-Position=1,4,29,28
-Text=116
- 
-  
-[Text]
-Position=1,4,29,28
-Text=117
- 
-  
-[Text]
-Position=1,4,29,28
-Text=118
- 
-  
-[Text]
-Position=1,4,29,28
-Text=119
- 
-  
-[Text]
-Position=0,4,29,28
-Text=120
- 
-  
-[Text]
-Position=0,4,29,28
-Text=121
- 
-  
-[Text]
-Position=0,4,29,28
-Text=122
- 
-  
-[Text]
-Position=0,4,29,28
-Text=123
- 
-  
-[Text]
-Position=0,4,29,28
-Text=124
- 
-  
-[Text]
-Position=0,4,29,28
-Text=125
- 
-  
-[Text]
-Position=0,4,29,28
-Text=126
- 
-  
-[Text]
-Position=0,4,29,28
-Text=127
- 
-  
-[Text]
-Position=0,4,29,28
-Text=128
- 
-  
-[Text]
-Position=0,4,29,28
-Text=129
- 
-  
-[Text]
-Position=0,4,29,28
-Text=130
- 
-  
-[Text]
-Position=0,4,29,28
-Text=131
- 
-  
-[Text]
-Position=0,4,29,28
-Text=132
- 
-  
-[Text]
-Position=0,4,29,28
-Text=133
- 
-  
-[Text]
-Position=0,4,29,28
-Text=134
- 
-  
-[Text]
-Position=0,4,29,28
-Text=135
- 
-  
-[Text]
-Position=0,4,29,28
-Text=136
- 
-  
-[Text]
-Position=0,4,29,28
-Text=137
- 
-  
-[Text]
-Position=0,4,29,28
-Text=138
- 
-  
-[Text]
-Position=0,4,29,28
-Text=139
- 
-  
-[Text]
-Position=0,4,29,28
-Text=140
- 
-  
-[Text]
-Position=0,4,29,28
-Text=141
- 
-  
-[Text]
-Position=0,4,29,28
-Text=142
- 
-  
-[Text]
-Position=0,4,29,28
-Text=143
- 
-  
-[Text]
-Position=0,4,29,28
-Text=144
- 
-  
-[Text]
-Position=0,4,29,28
-Text=145
- 
-  
-[Text]
-Position=0,4,29,28
-Text=146
- 
-  
-[Text]
-Position=0,4,29,28
-Text=147
- 
-  
-[Text]
-Position=0,4,29,28
-Text=148
- 
-  
-[Text]
-Position=0,4,29,28
-Text=149
- 
-  
-[Text]
-Position=0,4,29,28
-Text=150
- 
-  
-[Text]
-Position=0,4,29,28
-Text=151
- 
-  
-[Text]
-Position=0,4,29,28
-Text=152
- 
-  
-[Text]
-Position=0,4,29,28
-Text=153
- 
-  
-[Text]
-Position=0,4,29,28
-Text=154
- 
-  
-[Text]
-Position=0,4,29,28
-Text=155
- 
-  
-[Text]
-Position=0,4,29,28
-Text=156
- 
-  
-[Text]
-Position=0,4,29,28
-Text=157
- 
-  
-[Text]
-Position=0,4,29,28
-Text=158
- 
-  
-[Text]
-Position=0,4,29,28
-Text=159
- 
-  
-[Text]
-Position=0,4,29,28
-Text=160
- 
-  
-[Text]
-Position=0,4,29,28
-Text=161
- 
-  
-[Text]
-Position=0,4,29,28
-Text=162
- 
-  
-[Text]
-Position=0,4,29,28
-Text=163
- 
-  
-[Text]
-Position=0,4,29,28
-Text=164
- 
-  
-[Text]
-Position=0,4,29,28
-Text=165
- 
-  
-[Text]
-Position=0,4,29,28
-Text=166
- 
-  
-[Text]
-Position=0,4,29,28
-Text=167
- 
-  
-[Text]
-Position=0,4,29,28
-Text=168
- 
-  
-[Text]
-Position=0,4,29,28
-Text=169
- 
-  
-[Text]
-Position=0,4,29,28
-Text=170
- 
-  
-[Text]
-Position=0,4,29,28
-Text=171
- 
-  
-[Text]
-Position=0,4,29,28
-Text=172
- 
-  
-[Text]
-Position=0,4,29,28
-Text=173
- 
-  
-[Text]
-Position=0,4,29,28
-Text=174
- 
-  
-[Text]
-Position=0,4,29,28
-Text=175
- 
-  
-[Text]
-Position=0,4,29,28
-Text=176
- 
-  
-[Text]
-Position=0,4,29,28
-Text=177
- 
-  
-[Text]
-Position=0,4,29,28
-Text=178
- 
-  
-[Text]
-Position=0,4,29,28
-Text=179
- 
-  
-[Text]
-Position=0,4,29,28
-Text=180
- 
-  
-[Text]
-Position=0,4,29,28
-Text=181
- 
-  
-[Text]
-Position=0,4,29,28
-Text=182
- 
-  
-[Text]
-Position=0,4,29,28
-Text=183
- 
-  
-[Text]
-Position=0,4,29,28
-Text=184
- 
-  
-[Text]
-Position=0,4,29,28
-Text=185
- 
-  
-[Text]
-Position=0,4,29,28
-Text=186
- 
-  
-[Text]
-Position=0,4,29,28
-Text=187
- 
-  
-[Text]
-Position=0,4,29,28
-Text=188
- 
-  
-[Text]
-Position=0,4,29,28
-Text=189
- 
-  
-[Text]
-Position=0,4,29,28
-Text=190
- 
-  
-[Text]
-Position=0,4,29,28
-Text=191
- 
-  
-[Text]
-Position=0,4,29,28
-Text=192
- 
-  
-[Text]
-Position=0,4,29,28
-Text=193
- 
-  
-[Text]
-Position=0,4,29,28
-Text=194
- 
-  
-[Text]
-Position=0,4,29,28
-Text=195
- 
-  
-[Text]
-Position=0,4,29,28
-Text=196
- 
-  
-[Text]
-Position=0,4,29,28
-Text=197
- 
-  
-[Text]
-Position=0,4,29,28
-Text=198
- 
-  
-[Text]
-Position=0,4,29,28
-Text=199
- 
-  
-[Text]
-Position=0,4,29,28
-Text=200
- 
-  
-[Text]
-Position=0,4,29,28
-Text=201
- 
-  
-[Text]
-Position=0,4,29,28
-Text=202
- 
-  
-[Text]
-Position=0,4,29,28
-Text=203
- 
-  
-[Text]
-Position=0,4,29,28
-Text=204
- 
-  
-[Text]
-Position=0,4,29,28
-Text=205
- 
-  
-[Text]
-Position=0,4,29,28
-Text=206
- 
-  
-[Text]
-Position=0,4,29,28
-Text=207
- 
-  
-[Text]
-Position=0,4,29,28
-Text=208
- 
-  
-[Text]
-Position=0,4,29,28
-Text=209
- 
-  
-[Text]
-Position=0,4,29,28
-Text=210
- 
-  
-[Text]
-Position=1,4,29,28
-Text=211
- 
-  
-[Text]
-Position=0,4,29,28
-Text=212
- 
-  
-[Text]
-Position=0,4,29,28
-Text=213
- 
-  
-[Text]
-Position=0,4,29,28
-Text=214
- 
-  
-[Text]
-Position=0,4,29,28
-Text=215
- 
-  
-[Text]
-Position=0,4,29,28
-Text=216
- 
-  
-[Text]
-Position=0,4,29,28
-Text=217
- 
-  
-[Text]
-Position=0,4,29,28
-Text=218
- 
-  
-[Text]
-Position=0,4,29,28
-Text=219
- 
-  
-[Text]
-Position=0,4,29,28
-Text=220
- 
-  
-[Text]
-Position=0,4,29,28
-Text=221
- 
-  
-[Text]
-Position=0,4,29,28
-Text=222
- 
-  
-[Text]
-Position=0,4,29,28
-Text=223
- 
-  
-[Text]
-Position=0,4,29,28
-Text=224
- 
-  
-[Text]
-Position=0,4,29,28
-Text=225
- 
-  
-[Text]
-Position=0,4,29,28
-Text=226
- 
-  
-[Text]
-Position=0,4,29,28
-Text=227
- 
-  
-[Text]
-Position=0,4,29,28
-Text=228
- 
-  
-[Text]
-Position=0,4,29,28
-Text=229
- 
-  
-[Text]
-Position=0,4,29,28
-Text=230
- 
-  
-[Text]
-Position=0,4,29,28
-Text=231
- 
-  
-[Text]
-Position=0,4,29,28
-Text=232
- 
-  
-[Text]
-Position=0,4,29,28
-Text=233
- 
-  
-[Text]
-Position=0,4,29,28
-Text=234
- 
-  
-[Text]
-Position=0,4,29,28
-Text=235
- 
-  
-[Text]
-Position=0,4,29,28
-Text=236
- 
-  
-[Text]
-Position=0,4,29,28
-Text=237
- 
-  
-[Text]
-Position=0,4,29,28
-Text=238
- 
-  
-[Text]
-Position=0,4,29,28
-Text=239
- 
-  
-[Text]
-Position=0,4,29,28
-Text=240
- 
-  
-[Text]
-Position=0,4,29,28
-Text=241
- 
-  
-[Text]
-Position=0,4,29,28
-Text=242
- 
-  
-[Text]
-Position=0,4,29,28
-Text=243
- 
-  
-[Text]
-Position=0,4,29,28
-Text=244
- 
-  
-[Text]
-Position=0,4,29,28
-Text=245
- 
-  
-[Text]
-Position=0,4,29,28
-Text=246
- 
-  
-[Text]
-Position=0,4,29,28
-Text=247
- 
-  
-[Text]
-Position=0,4,29,28
-Text=248
- 
-  
-[Text]
-Position=0,4,29,28
-Text=249
- 
-  
-[Text]
-Position=0,4,29,28
-Text=250
- 
-  
-[Text]
-Position=0,4,29,28
-Text=251
- 
-  
-[Text]
-Position=0,4,29,28
-Text=252
- 
-  
-[Text]
-Position=0,4,29,28
-Text=253
- 
-  
-[Text]
-Position=0,4,29,28
-Text=254
- 
-  
-[Text]
-Position=0,4,29,28
-Text=255
- 
-  
-[Text]
-Position=0,4,29,28
-Text=256
- 
-  
-[Text]
-Position=0,4,29,28
-Text=257
- 
-  
-[Text]
-Position=0,4,29,28
-Text=258
- 
-  
-[Text]
-Position=0,4,29,28
-Text=259
- 
-  
-[Text]
-Position=0,4,29,28
-Text=260
- 
-  
-[Text]
-Position=0,4,29,28
-Text=261
- 
-  
-[Text]
-Position=0,4,29,28
-Text=262
- 
-  
-[Text]
-Position=0,4,29,28
-Text=263
- 
-  
-[Text]
-Position=0,4,29,28
-Text=264
- 
-  
-[Text]
-Position=0,4,29,28
-Text=265
- 
-  
-[Text]
-Position=0,4,29,28
-Text=266
- 
-  
-[Text]
-Position=0,4,29,28
-Text=267
- 
-  
-[Text]
-Position=0,4,29,28
-Text=268
- 
-  
-[Text]
-Position=0,4,29,28
-Text=269
- 
-  
-[Text]
-Position=0,4,29,28
-Text=270
- 
-  
-[Text]
-Position=0,4,29,28
-Text=271
- 
-  
-[Text]
-Position=0,4,29,28
-Text=272
- 
-  
-[Text]
-Position=0,4,29,28
-Text=273
- 
-  
-[Text]
-Position=0,4,29,28
-Text=274
- 
-  
-[Text]
-Position=0,4,29,28
-Text=275
- 
-  
-[Text]
-Position=0,4,29,28
-Text=276
- 
-  
-[Text]
-Position=0,4,29,28
-Text=277
- 
-  
-[Text]
-Position=0,4,29,28
-Text=278
- 
-  
-[Text]
-Position=0,4,29,28
-Text=279
- 
-  
-[Text]
-Position=0,4,29,28
-Text=280
- 
-  
-[Text]
-Position=0,4,29,28
-Text=281
- 
-  
-[Text]
-Position=0,4,29,28
-Text=282
- 
-  
-[Text]
-Position=0,4,29,28
-Text=283
- 
-  
-[Text]
-Position=0,4,29,28
-Text=284
- 
-  
-[Text]
-Position=0,4,29,28
-Text=285
- 
-  
-[Text]
-Position=0,4,29,28
-Text=286
- 
-  
-[Text]
-Position=0,4,29,28
-Text=287
- 
-  
-[Text]
-Position=0,4,29,28
-Text=288
- 
-  
-[Text]
-Position=0,4,29,28
-Text=289
- 
-  
-[Text]
-Position=0,4,29,28
-Text=290
- 
-  
-[Text]
-Position=0,4,29,28
-Text=291
- 
-  
-[Text]
-Position=0,4,29,28
-Text=292
- 
-  
-[Text]
-Position=0,4,29,28
-Text=293
- 
-  
-[Text]
-Position=0,4,29,28
-Text=294
- 
-  
-[Text]
-Position=0,4,29,28
-Text=295
- 
-  
-[Text]
-Position=0,4,29,28
-Text=296
- 
-  
-[Column]
-Width=10
-[EndColumn]
-  
-[Column]
-Width=65
-  
-[HeaderText]
-Position=15,16,65,56
-Text=S41-2. Code
- 
-[Field]
-Name=CODE
-Position=0,0,57,20
-Item=CODE,HIES2022_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=S41-2. Code
- 
-[EndColumn]
-  
-[Column]
-Width=93
-  
-[HeaderText]
-Position=32,16,93,56
-Text=S41-4. Quantity
- 
-[Field]
-Name=QUANTITY
-Position=0,0,85,20
-Item=QUANTITY,HIES2022_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
-  
-[Text]
-Text=S41-4. Quantity
- 
-[EndColumn]
-  
-[Column]
-Width=107
-  
-[HeaderText]
-Position=57,16,107,56
-Text=S41-5. Value
- 
-[Field]
-Name=VALUE
-Position=0,0,99,20
-Item=VALUE,HIES2022_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
-  
-[Text]
-Text=S41-5. Value
- 
-[EndColumn]
-  
-[Column]
-Width=107
-  
-[HeaderText]
-Position=56,0,107,56
-Text=S41-6. Inkind value
- 
-[Field]
-Name=INKIND_VALUE
-Position=0,0,99,20
-Item=INKIND_VALUE,HIES2022_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=ComboBox
-  
-[Text]
-Text=S41-6. Inkind value
  
 [EndColumn]
   
@@ -5800,7 +4141,7 @@ Text=S41-6. Inkind value
 Required=Yes
 Name=SECTION_4_2_NON_FOOD_FORM
 Label=Section - 4.2 - Non Food
-Form=11
+Form=10
 Max=1
   
 [Field]
@@ -5808,7 +4149,7 @@ Name=F421
 Position=96,44,111,64
 Item=F421,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=45,47,74,63
@@ -5818,7 +4159,7 @@ Text=F421
 [Grid]
 Name=SECTION_4_2_1_RENTAL_BILL_TAX000
 Label=Section - 4.2.1 - Rental Bill Tax
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_1_RENTAL_BILL_TAX
@@ -5916,7 +4257,7 @@ Name=F4221
 Position=105,217,120,237
 Item=F4221,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=47,220,83,236
@@ -5926,7 +4267,7 @@ Text=F4221
 [Grid]
 Name=SECTION_4_2_2_1_EECTRICITY_FUEL000
 Label=Section - 4.2.2.1 - Eectricity Fuel
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_2_1_EECTRICITY_FUEL
@@ -6056,7 +4397,7 @@ Name=F4222
 Position=108,471,123,491
 Item=F4222,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=50,474,86,490
@@ -6066,7 +4407,7 @@ Text=F4222
 [Grid]
 Name=SECTION_4_2_2_2_LIGHT_FUEL000
 Label=Section - 4.2.2.2 - Light Fuel
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_2_2_LIGHT_FUEL
@@ -6201,7 +4542,7 @@ Name=F423
 Position=104,724,119,744
 Item=F423,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=53,727,82,743
@@ -6211,7 +4552,7 @@ Text=F423
 [Grid]
 Name=SECTION_4_2_3_PERSONAL_CARE000
 Label=Section - 4.2.3 - Personal Care
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_3_PERSONAL_CARE
@@ -6369,7 +4710,7 @@ Name=F4241
 Position=113,1080,128,1100
 Item=F4241,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=55,1083,91,1099
@@ -6379,7 +4720,7 @@ Text=F4241
 [Grid]
 Name=SECTION_4_2_4_1_HEALTH_EXP_LM000
 Label=Section - 4.2.4.1 - Health Exp LM
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_4_1_HEALTH_EXP_LM
@@ -6502,7 +4843,7 @@ Name=F4242
 Position=114,1378,129,1398
 Item=F4242,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=56,1381,92,1397
@@ -6512,7 +4853,7 @@ Text=F4242
 [Grid]
 Name=SECTION_4_2_4_2_HEALTH_EXP_12M000
 Label=Section - 4.2.4.2 - Health Exp 12M
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_4_2_HEALTH_EXP_12M
@@ -6627,7 +4968,7 @@ Name=F4251
 Position=116,1572,131,1592
 Item=F4251,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=58,1575,94,1591
@@ -6637,7 +4978,7 @@ Text=F4251
 [Grid]
 Name=SECTION_4_2_5_1_TRANSPORT_LM000
 Label=Section - 4.2.5.1 - Transport LM
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_5_1_TRANSPORT_LM
@@ -6760,7 +5101,7 @@ Name=F4252
 Position=122,1875,137,1895
 Item=F4252,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=64,1878,100,1894
@@ -6770,7 +5111,7 @@ Text=F4252
 [Grid]
 Name=SECTION_4_2_5_2_MAINTENANCE_PV000
 Label=Section - 4.2.5.2 - Maintenance PV
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_5_2_MAINTENANCE_PV
@@ -6893,7 +5234,7 @@ Name=F4253
 Position=123,2144,138,2164
 Item=F4253,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=65,2147,101,2163
@@ -6903,7 +5244,7 @@ Text=F4253
 [Grid]
 Name=SECTION_4_2_5_3_MAINTENANCE_PV_12M000
 Label=Section - 4.2.5.3 - Maintenance PV 12M
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_5_3_MAINTENANCE_PV_12M
@@ -7001,7 +5342,7 @@ Name=F426
 Position=120,2323,135,2343
 Item=F426,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=69,2326,98,2342
@@ -7011,7 +5352,7 @@ Text=F426
 [Grid]
 Name=SECTION_4_2_6_COMMUNICATION000
 Label=Section - 4.2.6 - Communication
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_6_COMMUNICATION
@@ -7124,7 +5465,7 @@ Name=F4271
 Position=128,2566,143,2586
 Item=F4271,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=70,2569,106,2585
@@ -7134,7 +5475,7 @@ Text=F4271
 [Grid]
 Name=SECTION_4_2_7_1_F_EDUCATION_12M000
 Label=Section - 4.2.7.1 - Education LM
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_7_1_F_EDUCATION_12M
@@ -7257,7 +5598,7 @@ Name=F4272
 Position=130,2853,145,2873
 Item=F4272,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=72,2856,108,2872
@@ -7267,7 +5608,7 @@ Text=F4272
 [Grid]
 Name=SECTION_4_2_7_2_EDUCATION_12M000
 Label=Section - 4.2.7.2 - Education 12M
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_7_2_EDUCATION_12M
@@ -7375,7 +5716,7 @@ Name=F428
 Position=125,3068,140,3088
 Item=F428,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=74,3071,103,3087
@@ -7385,7 +5726,7 @@ Text=F428
 [Grid]
 Name=SECTION_4_2_8_SPORTS_ENT_CULTURAL000
 Label=Section - 4.2.8 - Sports Ent. Cultural
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_8_SPORTS_ENT_CULTURAL
@@ -7538,7 +5879,7 @@ Name=F429
 Position=127,3421,142,3441
 Item=F429,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=76,3424,105,3440
@@ -7548,7 +5889,7 @@ Text=F429
 [Grid]
 Name=SECTION_4_2_9_NON_DURABLE000
 Label=Section - 4.2.9 - Non Durable
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_9_NON_DURABLE
@@ -7671,7 +6012,7 @@ Name=F4210
 Position=135,3719,150,3739
 Item=F4210,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=77,3722,113,3738
@@ -7681,7 +6022,7 @@ Text=F4210
 [Grid]
 Name=SECTION_4_2_10_HH_SERVICES000
 Label=Section - 4.2.10 - HH Services
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_10_HH_SERVICES
@@ -7804,7 +6145,7 @@ Name=F42111
 Position=142,3992,157,4012
 Item=F42111,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=77,3995,120,4011
@@ -7814,7 +6155,7 @@ Text=F42111
 [Grid]
 Name=SECTION_4_2_11_1_CLOTHING_T000
 Label=Section - 4.2.11.1 - Clothing T
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_11_1_CLOTHING_T
@@ -8039,7 +6380,7 @@ Name=F42112
 Position=144,4343,159,4363
 Item=F42112,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=79,4346,122,4362
@@ -8049,7 +6390,7 @@ Text=F42112
 [Grid]
 Name=SECTION_4_2_11_2_CLOTHING_MATERIALS000
 Label=Section - 4.2.11.2 - Clothing Materials
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_11_2_CLOTHING_MATERIALS
@@ -8169,7 +6510,7 @@ Name=F42113
 Position=145,4528,160,4548
 Item=F42113,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=80,4531,123,4547
@@ -8179,7 +6520,7 @@ Text=F42113
 [Grid]
 Name=SECTION_4_2_11_3_TAILORING_CHARGES000
 Label=Section - 4.2.11.3 - Tailoring Charges
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_11_3_TAILORING_CHARGES
@@ -8277,7 +6618,7 @@ Name=F4212
 Position=140,4665,155,4685
 Item=F4212,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=82,4668,118,4684
@@ -8287,7 +6628,7 @@ Text=F4212
 [Grid]
 Name=SECTION_4_2_12_FOOT_WEAR000
 Label=Section - 4.2.12 - Foot Wear
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_12_FOOT_WEAR
@@ -8432,7 +6773,7 @@ Name=F4213
 Position=142,4964,157,4984
 Item=F4213,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=84,4967,120,4983
@@ -8442,7 +6783,7 @@ Text=F4213
 [Grid]
 Name=SECTION_4_2_13_DHH_GOODS_6M000
 Label=Section - 4.2.13 - DHH Goods 6M
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_13_DHH_GOODS_6M
@@ -8622,7 +6963,7 @@ Name=F42141
 Position=149,5314,164,5334
 Item=F42141,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=84,5317,127,5333
@@ -8632,7 +6973,7 @@ Text=F42141
 [Grid]
 Name=SECTION_4_2_14_1_DHH_GOODS_12M000
 Label=Section - 4.2.14.1 - DHH Goods 12M
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_14_1_DHH_GOODS_12M
@@ -8912,7 +7253,7 @@ Name=F42142
 Position=150,5665,165,5685
 Item=F42142,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=85,5668,128,5684
@@ -8922,7 +7263,7 @@ Text=F42142
 [Grid]
 Name=SECTION_4_2_14_2_DHH_GOODS_LM000
 Label=Section - 4.2.14.2 - DHH Goods LM
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_14_2_DHH_GOODS_LM
@@ -9020,7 +7361,7 @@ Name=F4215
 Position=143,5786,158,5806
 Item=F4215,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=85,5789,121,5805
@@ -9030,7 +7371,7 @@ Text=F4215
 [Grid]
 Name=SECTION_4_2_15_OTHER_EXP000
 Label=Section - 4.2.15 - Other Exp
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_15_OTHER_EXP
@@ -9173,7 +7514,7 @@ Name=F4216
 Position=145,6079,160,6099
 Item=F4216,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=11
+Form=10
   
 [Text]
 Position=87,6082,123,6098
@@ -9183,7 +7524,7 @@ Text=F4216
 [Grid]
 Name=SECTION_4_2_16_OTHER_ADHOC000
 Label=Section - 4.2.16 - Other Adhoc
-Form=11
+Form=10
 Required=No
 Type=Record
 TypeName=SECTION_4_2_16_OTHER_ADHOC
@@ -9306,7 +7647,7 @@ Length=3
 Required=No
 Name=SEC_4_3_IS_BOADERS_FORM
 Label=Section - 4.3 - Is Boaders Servent
-Form=12
+Form=11
 Max=1
   
 [Field]
@@ -9314,7 +7655,7 @@ Name=IS_BOARDERS_SERVENTS
 Position=506,27,521,47
 Item=IS_BOARDERS_SERVENTS,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=12
+Form=11
   
 [Text]
 Position=50,30,483,46
@@ -9325,7 +7666,7 @@ Text=4.3 Are there Boarders and / or Domestic servants in this household?
 Name=S43AQ21
 Position=866,74,881,94
 Item=S43AQ21,HIES2022_DICT
-Form=12
+Form=11
   
 [Text]
 Position=55,72,845,88
@@ -9337,13 +7678,13 @@ Text=Expenditure on Housing, Fuel & Light,  Non-durable goods,  Services & Consu
 Required=No
 Name=SEC_4_3_BOARDERS_FORM
 Label=Section - 4.3 - Boaders Servent
-Form=13
+Form=12
 Max=1
   
 [Grid]
 Name=SEC_4_3_BOARDERS000
 Label=Section - 4.3 - Boaders Servent
-Form=13
+Form=12
 Required=No
 Type=Record
 TypeName=SEC_4_3_BOARDERS
@@ -9862,7 +8203,7 @@ Text=END_Sec43
 Required=No
 Name=SEC_5_1_IS_EMP_INCOME_FORM
 Label=Section - 5.1 - Is employment Income
-Form=14
+Form=13
 Max=1
   
 [Field]
@@ -9870,7 +8211,7 @@ Name=S51A
 Position=824,27,839,47
 Item=S51A,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=14
+Form=13
   
 [Text]
 Position=50,30,806,46
@@ -9882,13 +8223,13 @@ Text=5.1 Did any of the household members (usually live) engage as an employee d
 Required=No
 Name=SEC_5_1_EMP_INCOME_FORM
 Label=Section - 5.1 - Employment Income
-Form=15
+Form=14
 Max=1
   
 [Grid]
 Name=SEC_5_1_EMP_INCOME000
 Label=Section - 5.1 - Employment Income
-Form=15
+Form=14
 Required=No
 Type=Record
 TypeName=SEC_5_1_EMP_INCOME
@@ -10248,7 +8589,7 @@ Text=END_Sec51
 Required=No
 Name=SEC_5_2_IS_AGRI_INCOME_FORM
 Label=Section - 5.2 - Is aggricultural Income
-Form=16
+Form=15
 Max=1
   
 [Field]
@@ -10256,7 +8597,7 @@ Name=S52A
 Position=129,49,144,69
 Item=S52A,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=16
+Form=15
   
 [Text]
 Position=50,30,1273,62
@@ -10268,13 +8609,13 @@ Text=5.2 Did any of the household members (usually live) cultivate paddy, other 
 Required=No
 Name=SEC_5_2_AGRI_INCOME_FORM
 Label=Section - 5.2 - Aggricultural Income
-Form=17
+Form=16
 Max=1
   
 [Grid]
 Name=SEC_5_2_AGRI_INCOME000
 Label=Section - 5.2 - Aggricultural Income
-Form=17
+Form=16
 Required=No
 Type=Record
 TypeName=SEC_5_2_AGRI_INCOME
@@ -10862,7 +9203,7 @@ Text=END_Sec52
 Required=No
 Name=SEC_5_3_IS_OTHER_AGRI_INCOME_FORM
 Label=Section - 5.3 - Is other aggricultural income
-Form=18
+Form=17
 Max=1
   
 [Field]
@@ -10870,7 +9211,7 @@ Name=S53A
 Position=1212,28,1227,48
 Item=S53A,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=18
+Form=17
   
 [Text]
 Position=50,30,1200,46
@@ -10882,13 +9223,13 @@ Text=5.3 Did any of the household members (usually live) engage in other agricul
 Required=No
 Name=SEC_5_3_OTHER_AGRI_INCOME_FORM
 Label=Section - 5.3 - Other aggricultural income
-Form=19
+Form=18
 Max=1
   
 [Grid]
 Name=SEC_5_3_OTHER_AGRI_INCOME000
 Label=Section - 5.3 - Other aggricultural income
-Form=19
+Form=18
 Required=No
 Type=Record
 TypeName=SEC_5_3_OTHER_AGRI_INCOME
@@ -11381,7 +9722,7 @@ Text=END_Sec53
 Required=No
 Name=SEC_5_4_IS_NON_AGRI_INCOME_FORM
 Label=Section - 5.4 - Is non_agri income
-Form=20
+Form=19
 Max=1
   
 [Field]
@@ -11389,7 +9730,7 @@ Name=IS_NON_AGRI_INCOME
 Position=366,51,381,71
 Item=IS_NON_AGRI_INCOME,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=20
+Form=19
   
 [Text]
 Position=50,30,1286,62
@@ -11401,13 +9742,13 @@ Text=5.4 Did any of the household members (usually live) engage in any non – a
 Required=No
 Name=SEC_5_4_NON_AGRI_INCOME_FORM
 Label=Section - 5.4 - Non agri income
-Form=21
+Form=20
 Max=1
   
 [Grid]
 Name=SEC_5_4_NON_AGRI_INCOME000
 Label=Section - 5.4 - Non agri income
-Form=21
+Form=20
 Required=No
 Type=Record
 TypeName=SEC_5_4_NON_AGRI_INCOME
@@ -11805,7 +10146,7 @@ Text=END_Sec54
 Required=No
 Name=SEC_5_5_1_IS_OTHER_INCOME_FORM
 Label=section - 5.5.1 - Is other income
-Form=22
+Form=21
 Max=1
   
 [Field]
@@ -11813,7 +10154,7 @@ Name=IS_OTHER_INCOME
 Position=573,28,588,48
 Item=IS_OTHER_INCOME,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=22
+Form=21
   
 [Text]
 Position=50,30,542,46
@@ -11825,13 +10166,13 @@ Text=5.5.1 Income from other cash receipt within a month / last calendar 12 mont
 Required=No
 Name=SEC_5_5_1_OTHER_INCOME_FORM
 Label=Section - 5.5.1 - Other income
-Form=23
+Form=22
 Max=1
   
 [Grid]
 Name=SEC_5_5_1_OTHER_INCOME000
 Label=Section - 5.5.1 - Other income
-Form=23
+Form=22
 Required=No
 Type=Record
 TypeName=SEC_5_5_1_OTHER_INCOME
@@ -12324,7 +10665,7 @@ Text=END_Sec551
 Required=No
 Name=SEC_5_5_2_IS_WINDFALL_INCOME_FORM
 Label=Section - 5.5.2 - Is windfall income
-Form=24
+Form=23
 Max=1
   
 [Field]
@@ -12332,7 +10673,7 @@ Name=IS_WINDFALL_INCOME
 Position=518,23,533,43
 Item=IS_WINDFALL_INCOME,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=24
+Form=23
   
 [Text]
 Position=50,30,496,46
@@ -12344,13 +10685,13 @@ Text=5.5.2 Income by chance or adhoc gains during last calendar 12 months
 Required=No
 Name=SEC_5_5_2_WINDFALL_INCOME_FORM
 Label=Section - 5.5.2 - Windfall income
-Form=25
+Form=24
 Max=1
   
 [Grid]
 Name=SEC_5_5_2_WINDFALL_INCOME000
 Label=Section - 5.5.2 - Windfall income
-Form=25
+Form=24
 Required=No
 Type=Record
 TypeName=SEC_5_5_2_WINDFALL_INCOME
@@ -12767,7 +11108,7 @@ Text=END_Sec552
 Required=No
 Name=SEC_6A_DURABLE_GOODS_FORM
 Label=Section - 6A - Durable goods
-Form=26
+Form=25
 Max=1
   
 [Field]
@@ -12775,7 +11116,7 @@ Name=S6A
 Position=126,82,1583,102
 Item=S6A,HIES2022_DICT
 DataCaptureType=CheckBox
-Form=26
+Form=25
   
 [Text]
 Position=85,86,110,102
@@ -12785,7 +11126,7 @@ Text=S6A
 [Grid]
 Name=SECTION_6A_1_HH_EQUIPMENTS000
 Label=Section - 6A.1 - HH Equipments
-Form=26
+Form=25
 Required=No
 Type=Record
 TypeName=SECTION_6A_1_HH_EQUIPMENTS
@@ -13059,7 +11400,7 @@ Text=S6A9 - Item 5
 Required=No
 Name=SEC_6_B_DEBTNESS_FORM
 Label=Section - 6B - Debtness
-Form=27
+Form=26
 Max=1
   
 [Field]
@@ -13068,7 +11409,7 @@ Position=78,20,639,40
 Item=S6B,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=CheckBox
-Form=27
+Form=26
   
 [Text]
 Position=26,23,51,39
@@ -13078,7 +11419,7 @@ Text=S6B
 [Grid]
 Name=SECTION_6B_INDEBTEDNESS000
 Label=Section - 6B - Indebtedness
-Form=27
+Form=26
 Required=No
 Type=Record
 TypeName=SECTION_6B_1_INDEBTEDNESS
@@ -13208,13 +11549,13 @@ Text=S6BQ4 - Reason
 Required=No
 Name=SEC_7_BASIC_FACILITIES_FORM
 Label=Section - 7 - Basic facilities
-Form=28
+Form=27
 Max=1
   
 [Grid]
 Name=SECTION_7_1_PRIMARY_FACILITIES000
 Label=Section - 7.1 - Primary Facilities
-Form=28
+Form=27
 Required=No
 Type=Record
 TypeName=SECTION_7_1_PRIMARY_FACILITIES
@@ -13374,7 +11715,7 @@ Position=327,360,342,380
 Item=S72Q11,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=28
+Form=27
   
 [Text]
 Position=30,363,270,379
@@ -13387,7 +11728,7 @@ Position=327,390,342,410
 Item=S72Q21,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=28
+Form=27
   
 [Text]
 Position=30,393,276,409
@@ -13400,7 +11741,7 @@ Position=327,420,342,440
 Item=S72Q31,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=28
+Form=27
   
 [Text]
 Position=30,423,305,439
@@ -13412,7 +11753,7 @@ Text=Access to Primary facilities :pipe borne line
 Required=No
 Name=SEC_8_HOUSING_FORM
 Label=Section - 8 - Housing
-Form=29
+Form=28
 Max=1
   
 [Field]
@@ -13421,7 +11762,7 @@ Position=751,27,780,47
 Item=S8Q1,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,30,159,46
@@ -13433,7 +11774,7 @@ Name=S8Q2
 Position=751,57,780,77
 Item=S8Q2,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=29
+Form=28
   
 [Text]
 Position=50,60,187,76
@@ -13446,7 +11787,7 @@ Position=751,87,766,107
 Item=S8Q3,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,90,209,106
@@ -13459,7 +11800,7 @@ Position=751,117,766,137
 Item=S8Q4A,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,120,323,136
@@ -13472,7 +11813,7 @@ Position=751,147,766,167
 Item=S8Q4B,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,150,323,166
@@ -13485,7 +11826,7 @@ Position=751,177,766,197
 Item=S8Q4C,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,180,323,196
@@ -13498,7 +11839,7 @@ Position=751,207,780,227
 Item=S8Q5,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,210,95,226
@@ -13511,7 +11852,7 @@ Position=751,237,780,257
 Item=S8Q6A,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,240,239,256
@@ -13524,7 +11865,7 @@ Position=751,267,766,287
 Item=S8Q6B1,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,270,291,286
@@ -13536,7 +11877,7 @@ Name=S8Q6B2
 Position=751,297,808,317
 Item=S8Q6B2,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=29
+Form=28
   
 [Text]
 Position=50,300,309,316
@@ -13548,7 +11889,7 @@ Name=S8Q6B
 Position=751,327,780,347
 Item=S8Q6B,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=29
+Form=28
   
 [Text]
 Position=50,330,309,346
@@ -13561,7 +11902,7 @@ Position=751,357,766,377
 Item=S8Q6C,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,360,207,376
@@ -13574,7 +11915,7 @@ Position=751,387,766,407
 Item=S8Q6D,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,390,391,406
@@ -13586,7 +11927,7 @@ Name=S8Q6E1
 Position=751,417,780,437
 Item=S8Q6E1,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=29
+Form=28
   
 [Text]
 Position=50,420,351,436
@@ -13598,7 +11939,7 @@ Name=S8Q6E2
 Position=751,447,780,467
 Item=S8Q6E2,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=29
+Form=28
   
 [Text]
 Position=50,450,339,466
@@ -13611,7 +11952,7 @@ Position=751,477,766,497
 Item=S8Q7A,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,480,143,496
@@ -13624,7 +11965,7 @@ Position=751,507,766,527
 Item=S8Q7B,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,510,137,526
@@ -13637,7 +11978,7 @@ Position=751,537,766,557
 Item=S8Q7C1,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,540,99,556
@@ -13650,7 +11991,7 @@ Position=751,567,766,587
 Item=S8Q7C21,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,570,175,586
@@ -13663,7 +12004,7 @@ Position=751,597,766,617
 Item=S8Q7C22,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,600,177,616
@@ -13676,7 +12017,7 @@ Position=751,627,766,647
 Item=S8Q7C23,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,630,172,646
@@ -13689,7 +12030,7 @@ Position=751,657,766,677
 Item=S8Q8,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,660,178,676
@@ -13702,7 +12043,7 @@ Position=751,687,766,707
 Item=S8Q9,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,690,214,706
@@ -13715,7 +12056,7 @@ Position=751,717,766,737
 Item=S8Q10,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,720,240,736
@@ -13728,7 +12069,7 @@ Position=751,747,766,767
 Item=S8Q11A,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,750,178,766
@@ -13741,7 +12082,7 @@ Position=751,777,766,797
 Item=S8Q11B1,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,780,228,796
@@ -13753,7 +12094,7 @@ Name=S8Q11B2
 Position=751,807,808,827
 Item=S8Q11B2,HIES2022_DICT
 FieldLabelType=DictionaryLabel
-Form=29
+Form=28
   
 [Text]
 Position=50,810,246,826
@@ -13766,7 +12107,7 @@ Position=751,837,766,857
 Item=S8Q12A,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,840,729,856
@@ -13778,7 +12119,7 @@ Name=S8Q12B
 Position=233,864,318,884
 Item=S8Q12B,HIES2022_DICT
 DataCaptureType=CheckBox
-Form=29
+Form=28
   
 [Text]
 Position=51,867,100,883
@@ -13791,7 +12132,7 @@ Position=561,909,576,929
 Item=CM17,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=29
+Form=28
   
 [Text]
 Position=50,912,529,928
@@ -13803,7 +12144,7 @@ Text=Child death (After completing the child roster ask once for every household
 Required=No
 Name=SECTION_9_IS_A_LAND_FORM
 Label=Section - 9 - is a land
-Form=30
+Form=29
 Max=1
   
 [Field]
@@ -13812,7 +12153,7 @@ Position=281,27,296,47
 Item=S91Q0,HIES2022_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=30
+Form=29
   
 [Text]
 Position=50,30,259,46
@@ -13824,13 +12165,13 @@ Text=Agricultural Holdings & Livestock
 Required=No
 Name=SEC_9_LAND_ANIMAL_FORM
 Label=Section - 9.1 - Land and animal
-Form=31
+Form=30
 Max=1
   
 [Grid]
 Name=SEC_9_LAND_ANIMAL000
 Label=Section - 9.1 - Land and animal
-Form=31
+Form=30
 Required=No
 Type=Record
 TypeName=SEC_9_LAND_ANIMAL
@@ -14175,7 +12516,7 @@ Text=END_Sec9
 Required=No
 Name=SECTION_9_2_OWNED_LIVESTOCKS_FORM
 Label=Section-9.2-Owned Livestocks
-Form=32
+Form=31
 Max=1
   
 [Field]
@@ -14183,7 +12524,7 @@ Name=S9B
 Position=155,75,436,95
 Item=S9B,HIES2022_DICT
 DataCaptureType=CheckBox
-Form=32
+Form=31
   
 [Text]
 Position=98,78,123,94
@@ -14193,7 +12534,7 @@ Text=S9B
 [Grid]
 Name=SECTION_9_2_OWNED_LIVESTOCKS000
 Label=Section-9.2-Owned Livestocks
-Form=32
+Form=31
 Required=No
 Type=Record
 TypeName=SECTION_9_2_OWNED_LIVESTOCKS
@@ -14277,7 +12618,7 @@ Text=S92.LQty
 Required=No
 Name=SEC_10_FOODEXP_FORM
 Label=Section-10-Food Experience
-Form=33
+Form=32
 Max=1
   
 [Field]
@@ -14285,7 +12626,7 @@ Name=S10Q1
 Position=741,35,756,55
 Item=S10Q1,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=50,30,682,62
@@ -14297,7 +12638,7 @@ Name=S10Q2
 Position=741,77,756,97
 Item=S10Q2,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=50,72,701,104
@@ -14309,7 +12650,7 @@ Name=S10Q3
 Position=741,119,756,139
 Item=S10Q3,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=49,117,682,149
@@ -14321,7 +12662,7 @@ Name=S10Q4
 Position=741,161,756,181
 Item=S10Q4,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=48,160,672,192
@@ -14333,7 +12674,7 @@ Name=S10Q5
 Position=741,203,756,223
 Item=S10Q5,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=50,206,691,238
@@ -14345,7 +12686,7 @@ Name=S10Q6
 Position=741,245,756,265
 Item=S10Q6,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=51,251,669,283
@@ -14357,7 +12698,7 @@ Name=S10Q7A
 Position=741,287,756,307
 Item=S10Q7A,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=50,295,682,327
@@ -14369,7 +12710,7 @@ Name=S10Q7B
 Position=741,329,756,349
 Item=S10Q7B,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=48,340,662,356
@@ -14381,7 +12722,7 @@ Name=S10Q8A
 Position=741,371,756,391
 Item=S10Q8A,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=50,372,684,404
@@ -14393,7 +12734,7 @@ Name=S10Q8B
 Position=741,414,756,434
 Item=S10Q8B,HIES2022_DICT
 DataCaptureType=RadioButton
-Form=33
+Form=32
   
 [Text]
 Position=50,419,660,435
